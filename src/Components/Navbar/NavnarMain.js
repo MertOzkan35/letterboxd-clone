@@ -7,7 +7,7 @@ function NavnarMain() {
       <Link to="/">
         <img
           className=" ml-5 w-[350px] h-[82px]  object-cover "
-          src={require("../../../src/İmages/logo2.png")}
+          src={require("../../../src/images/logo2.png")}
         />
       </Link>
       <div className="text-[#d8e0e8] font-bold  flex flex-row justify-center text-justfiy items-center pr-12 h-full">
