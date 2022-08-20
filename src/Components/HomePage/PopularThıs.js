@@ -14,9 +14,12 @@ function PopularThıs() {
           return (
             <div
               key={key}
-              className="w-[11rem]  h-[16rem] border-2 border-[#14181c] bg-[#ebecf0] rounded-3xl mx-7 my-2 flex items-center justify-center  "
+              className="w-[11rem]  h-[16rem]  rounded-3xl mx-7 my-2 flex items-center justify-center  "
             >
-              {element.img}
+              <img
+                className=" w-[11rem]  h-[16rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
+                src={require(`../../images/${element.img}`)}
+              />
             </div>
           );
         })}

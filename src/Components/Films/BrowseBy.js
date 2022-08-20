@@ -31,10 +31,15 @@ function BrowseBy() {
           </div>
         </div>
         <div className=" flex  items-center ">
-          <p className="flex flex-row text-lg  text-[#899aa9] ">FIND A FILM</p>
+          <p className="flex flex-row text-lg font-semibold  text-[#899aa9] ">
+            FIND A FILM
+          </p>
           <input className="w-[250px] ml-5 h-[40px] bg-[#2c3440] rounded-lg focus:bg-slate-100 pl-2"></input>
         </div>
       </div>
+      <p className=" bg-[#1b2228] pl-16 text-xl text-[#63707d] hover:text-[#42668a] w-full border-b-2 border-[#445566] hover:border-[#42668a]">
+        ALL FILMS FOR YOU
+      </p>
     </div>
   );
 }
