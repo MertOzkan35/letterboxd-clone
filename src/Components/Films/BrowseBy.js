@@ -31,7 +31,7 @@ function BrowseBy(props) {
               <option>Drama</option>
               <option>Horror</option>
               <option>Science Fiction</option>
-              <option> Fantasy</option>
+              <option>Fantasy</option>
             </select>
           </div>
         </div>
