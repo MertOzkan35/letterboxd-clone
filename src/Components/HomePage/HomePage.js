@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../images/Homeimg.jpg";
+import img from "../../images/Listsmain.jpg";
 import PopularThıs from "./PopularThıs";
 function HomePage() {
   return (
@@ -9,7 +9,7 @@ function HomePage() {
           style={{
             backgroundImage: `url(${img})`,
             position: "relative",
-            height: 700,
+            height: 600,
             backgroundSize: "cover",
           }}
         ></div>

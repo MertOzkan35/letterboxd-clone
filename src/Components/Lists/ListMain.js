@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function ListMain() {
   return (
@@ -10,7 +11,7 @@ function ListMain() {
             POPULAR LISTS
           </p>
           <div className="w-full h-[13rem] flex flex-col-2 items-start border-b-2 border-[#445566] hover:border-[#42668a]">
-            <div className="w-1/2">
+            <Link to="/listnum1" className="w-1/2">
               <div className="w-full h-[7.2rem] rounded-xl flex flex-row relative bg-[#1b2228] mt-5 border-2 border-[#445566] hover:border-[#00b020] ">
                 <img
                   className="   h-[7rem] rounded-xl object-cover z-10 relative "
@@ -53,11 +54,14 @@ function ListMain() {
                   src={require("../../images/94list1.jpg")}
                 />
               </div>
-            </div>
+            </Link>
             <div className="w-1/2 pt-5 pl-3">
-              <h1 className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 ">
+              <Link
+                to="/listnum1"
+                className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 "
+              >
                 10 Golden Movies From the Editor...
-              </h1>
+              </Link>
               <h1 className=" text-[#8897a7] font font-bold text-[17px] ">
                 From Editor: 10 impressive movies of different genres and genres
                 that you must watch
@@ -65,7 +69,7 @@ function ListMain() {
             </div>
           </div>
           <div className="w-full h-[13rem] flex flex-col-2 items-start border-b-2 border-[#445566] hover:border-[#42668a]">
-            <div className="w-1/2">
+            <Link to="/listnum2" className="w-1/2">
               <div className="w-full h-[7.2rem] rounded-xl flex flex-row relative bg-[#1b2228] mt-5 border-2 border-[#445566] hover:border-[#00b020] ">
                 <img
                   className="   h-[7rem] rounded-xl object-cover z-10 relative "
@@ -108,18 +112,21 @@ function ListMain() {
                   src={require("../../images/list267.jpg")}
                 />
               </div>
-            </div>
+            </Link>
             <div className="w-1/2 pt-5 pl-3">
-              <h1 className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 ">
+              <Link
+                to="/listnum2"
+                className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 "
+              >
                 Maybe its the Scariest to Somebody....
-              </h1>
+              </Link>
               <h1 className=" text-[#8897a7] font font-bold text-[17px] ">
                 Be careful ! Watching these movies alone can be a bit difficult.
               </h1>
             </div>
           </div>
           <div className="w-full h-[13rem] flex flex-col-2 items-start border-b-2 border-[#445566] hover:border-[#42668a]">
-            <div className="w-1/2">
+            <Link to="/listnum3" className="w-1/2">
               <div className="w-full h-[7.2rem] rounded-xl flex flex-row relative bg-[#1b2228] mt-5 border-2 border-[#445566] hover:border-[#00b020] ">
                 <img
                   className="   h-[7rem] rounded-xl object-cover z-10 relative "
@@ -162,11 +169,14 @@ function ListMain() {
                   src={require("../../images/list38.jpg")}
                 />
               </div>
-            </div>
+            </Link>
             <div className="w-1/2 pt-5 pl-3">
-              <h1 className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 ">
+              <Link
+                to="/listnum3"
+                className=" text-[#ffffff] font font-bold text-[24px] hover:opacity-80 mb-4 "
+              >
                 Best Works of Directors...
-              </h1>
+              </Link>
               <h1 className=" text-[#8897a7] font font-bold text-[17px] ">
                 Directors' favorite job in their career
               </h1>

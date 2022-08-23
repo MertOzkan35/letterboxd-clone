@@ -5,7 +5,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "everything everywhere all at once",
-      Id: 1,
+      Id: "1",
       img: "1.jpg",
       Date: 2022,
       Part: "2020s",
@@ -13,7 +13,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "the last duel",
-      Id: 2,
+      Id: "2",
       img: "2.jpg",
       Date: 2021,
       Part: "2020s",
@@ -21,7 +21,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "dune",
-      Id: 3,
+      Id: "3",
       img: "3.jpg",
       Date: 2021,
       Part: "2020s",
@@ -29,7 +29,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "drive my car",
-      Id: 4,
+      Id: "4",
       img: "4.jpg",
       Date: 2021,
       Part: "2020s",
@@ -37,7 +37,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "the worst person in the world",
-      Id: 5,
+      Id: "5",
       img: "5.jpg",
       Date: 2021,
       Part: "2020s",
@@ -45,7 +45,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "good will hunting",
-      Id: 6,
+      Id: "6",
       img: "6.jpg",
       Date: 1997,
       Part: "Older...",
@@ -53,7 +53,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "her",
-      Id: 7,
+      Id: "7",
       img: "7.jpg",
       Date: 2013,
       Part: "2010s",
@@ -61,7 +61,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "undine",
-      Id: 8,
+      Id: "8",
       img: "8.jpg",
       Date: 2020,
       Part: "2020s",
@@ -69,7 +69,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "parasite",
-      Id: 9,
+      Id: "9",
       img: "9.jpg",
       Date: 2019,
       Part: "2010s",
@@ -77,7 +77,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "gone girl",
-      Id: 10,
+      Id: "10",
       img: "10.jpg",
       Date: 2014,
       Part: "2010s",
@@ -85,7 +85,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "birdman",
-      Id: 11,
+      Id: "11",
       img: "11.jpg",
       Date: 2014,
       Part: "2010s",
@@ -93,7 +93,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "frances ha",
-      Id: 12,
+      Id: "12",
       img: "12.jpg",
       Date: 2012,
       Part: "2010s",
@@ -101,7 +101,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "mr nobody",
-      Id: 13,
+      Id: "13",
       img: "13.jpg",
       Date: 2009,
       Part: "2000s",
@@ -109,7 +109,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "the curious case of benjamin button",
-      Id: 14,
+      Id: "14",
       img: "14.jpg",
       Date: 2008,
       Part: "2000s",
@@ -117,7 +117,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "vicky cristina barcelona",
-      Id: 15,
+      Id: "15",
       img: "15.jpg",
       Date: 2008,
       Part: "2000s",
@@ -125,7 +125,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "lost in translation",
-      Id: 16,
+      Id: "16",
       img: "16.jpg",
       Date: 2003,
       Part: "2000s",
@@ -133,7 +133,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "memories of murder",
-      Id: 17,
+      Id: "17",
       img: "17.jpg",
       Date: 2003,
       Part: "2000s",
@@ -141,7 +141,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "leon the professional",
-      Id: 18,
+      Id: "18",
       img: "18.jpg",
       Date: 1994,
       Part: "Older...",
@@ -149,7 +149,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "cinema paradiso",
-      Id: 19,
+      Id: "19",
       img: "19.jpg",
       Date: 1988,
       Part: "Older...",
@@ -157,7 +157,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "one flew over the cuckoo’s nest",
-      Id: 20,
+      Id: "20",
       img: "20.jpg",
       Date: 1975,
       Part: "Older...",
@@ -165,7 +165,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "12 angry men",
-      Id: 21,
+      Id: "21",
       img: "21.jpg",
       Date: 1957,
       Part: "Older...",
@@ -173,7 +173,7 @@ const initialState = {
     {
       Category: "Drama",
       Name: "the broken landlord",
-      Id: 22,
+      Id: "22",
       img: "22.jpg",
       Date: 1985,
       Part: "Older...",
@@ -181,7 +181,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "the brath",
-      Id: 23,
+      Id: "23",
       img: "23.jpg",
       Date: 2009,
       Part: "2000s",
@@ -189,7 +189,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "the nice guys",
-      Id: 24,
+      Id: "24",
       img: "24.jpg",
       Date: 2016,
       Part: "2010s",
@@ -197,7 +197,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "sicario",
-      Id: 25,
+      Id: "25",
       img: "25.jpg",
       Date: 2015,
       Part: "2010s",
@@ -205,7 +205,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "mad max",
-      Id: 26,
+      Id: "26",
       img: "26.jpg",
       Date: 2015,
       Part: "2010s",
@@ -213,7 +213,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "sin city",
-      Id: 27,
+      Id: "27",
       img: "27.jpg",
       Date: 2014,
       Part: "2010s",
@@ -221,7 +221,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "snowpiercer",
-      Id: 28,
+      Id: "28",
       img: "28.jpg",
       Date: 2013,
       Part: "2010s",
@@ -229,7 +229,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "skyfall",
-      Id: 29,
+      Id: "29",
       img: "29.jpg",
       Date: 2012,
       Part: "2010s",
@@ -237,7 +237,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "kill bill: the whole bloody affair",
-      Id: 30,
+      Id: "30",
       img: "30.jpg",
       Date: 2011,
       Part: "2010s",
@@ -245,7 +245,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "rocknrolla",
-      Id: 31,
+      Id: "31",
       img: "31.jpg",
       Date: 2008,
       Part: "Older...",
@@ -253,7 +253,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "top gun  maverick",
-      Id: 32,
+      Id: "32",
       img: "32.jpg",
       Date: 2022,
       Part: "2020s",
@@ -261,7 +261,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "children of men",
-      Id: 33,
+      Id: "33",
       img: "33.jpg",
       Date: 2006,
       Part: "2000s",
@@ -269,7 +269,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "constantine",
-      Id: 34,
+      Id: "34",
       img: "34.jpg",
       Date: 2005,
       Part: "2000s",
@@ -277,7 +277,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "blade",
-      Id: 35,
+      Id: "35",
       img: "35.jpg",
       Date: 1998,
       Part: "Older...",
@@ -285,7 +285,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "kingdom of heaven",
-      Id: 36,
+      Id: "36",
       img: "36.jpg",
       Date: 2005,
       Part: "2000s",
@@ -293,7 +293,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "battal gazi destanı",
-      Id: 37,
+      Id: "37",
       img: "37.jpg",
       Date: 1971,
       Part: "Older...",
@@ -301,7 +301,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "braveheart",
-      Id: 38,
+      Id: "38",
       img: "38.jpg",
       Date: 1995,
       Part: "Older...",
@@ -309,7 +309,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "heat",
-      Id: 39,
+      Id: "39",
       img: "39.jpg",
       Date: 1995,
       Part: "Older...",
@@ -317,7 +317,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "gladiator",
-      Id: 40,
+      Id: "40",
       img: "40.jpg",
       Date: 1999,
       Part: "Older...",
@@ -325,7 +325,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "the last samurai",
-      Id: 41,
+      Id: "41",
       img: "41.jpg",
       Date: 2003,
       Part: "2000s",
@@ -333,7 +333,7 @@ const initialState = {
     {
       Category: "Action",
       Name: "troy",
-      Id: 42,
+      Id: "42",
       img: "42.jpg",
       Date: 2004,
       Part: "2000s",
@@ -341,7 +341,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "the mitchells vs. the machines",
-      Id: 43,
+      Id: "43",
       img: "43.jpg",
       Date: 2021,
       Part: "2020s",
@@ -349,7 +349,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "aile arasında",
-      Id: 44,
+      Id: "44",
       img: "44.jpg",
       Date: 2017,
       Part: "2010s",
@@ -357,7 +357,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "just go with it",
-      Id: 45,
+      Id: "45",
       img: "45.jpg",
       Date: 2011,
       Part: "2010s",
@@ -365,7 +365,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "ada zombilerin düğünü",
-      Id: 46,
+      Id: "46",
       img: "46.jpg",
       Date: 2010,
       Part: "2010s",
@@ -373,7 +373,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "arog",
-      Id: 47,
+      Id: "47",
       img: "47.jpg",
       Date: 2008,
       Part: "2000s",
@@ -381,7 +381,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "the bucket list",
-      Id: 48,
+      Id: "48",
       img: "48.jpg",
       Date: 2007,
       Part: "2000s",
@@ -389,7 +389,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "hokkabaz",
-      Id: 49,
+      Id: "49",
       img: "49.jpg",
       Date: 2006,
       Part: "2000s",
@@ -397,7 +397,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "pardon",
-      Id: 50,
+      Id: "50",
       img: "50.jpg",
       Date: 2005,
       Part: "2000s",
@@ -405,7 +405,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "neredesin firuze",
-      Id: 51,
+      Id: "51",
       img: "51.jpg",
       Date: 2004,
       Part: "2000s",
@@ -413,7 +413,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "vizontele",
-      Id: 52,
+      Id: "52",
       img: "52.jpg",
       Date: 2001,
       Part: "2000s",
@@ -421,7 +421,7 @@ const initialState = {
     {
       Category: "Comedy",
       Name: "hababam sınıfı",
-      Id: 53,
+      Id: "53",
       img: "53.jpg",
       Date: 1975,
       Part: "Older...",
@@ -429,7 +429,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "the conjuring",
-      Id: 54,
+      Id: "54",
       img: "54.jpg",
       Date: 2021,
       Part: "2020s",
@@ -437,7 +437,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "midsommar",
-      Id: 55,
+      Id: "55",
       img: "55.jpg",
       Date: 2019,
       Part: "2010s",
@@ -445,7 +445,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "climax",
-      Id: 56,
+      Id: "56",
       img: "56.jpg",
       Date: 2018,
       Part: "2010s",
@@ -453,7 +453,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "a quiet place",
-      Id: 57,
+      Id: "57",
       img: "57.jpg",
       Date: 2018,
       Part: "2010s",
@@ -461,7 +461,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "hereditary",
-      Id: 58,
+      Id: "58",
       img: "58.jpg",
       Date: 2018,
       Part: "2010s",
@@ -469,7 +469,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "life",
-      Id: 59,
+      Id: "59",
       img: "59.jpg",
       Date: 2017,
       Part: "2010s",
@@ -478,7 +478,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "get out",
-      Id: 60,
+      Id: "60",
       img: "60.jpg",
       Date: 2017,
       Part: "2010s",
@@ -486,7 +486,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "the witch",
-      Id: 61,
+      Id: "61",
       img: "61.jpg",
       Date: 2015,
       Part: "2010s",
@@ -494,7 +494,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "the purge",
-      Id: 62,
+      Id: "62",
       img: "62.jpg",
       Date: 2013,
       Part: "2010s",
@@ -502,7 +502,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "the others",
-      Id: 63,
+      Id: "63",
       img: "63.jpg",
       Date: 2001,
       Part: "2000s",
@@ -510,7 +510,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "the shining",
-      Id: 64,
+      Id: "64",
       img: "64.jpg",
       Date: 1980,
       Part: "Older...",
@@ -518,7 +518,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "alien",
-      Id: 65,
+      Id: "65",
       img: "65.jpg",
       Date: 1979,
       Part: "Older...",
@@ -526,7 +526,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "jaws",
-      Id: 66,
+      Id: "66",
       img: "66.jpg",
       Date: 1975,
       Part: "Older...",
@@ -534,7 +534,7 @@ const initialState = {
     {
       Category: "Horror",
       Name: "psycho",
-      Id: 67,
+      Id: "67",
       img: "67.jpg",
       Date: 1960,
       Part: "Older...",
@@ -542,7 +542,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "2001 a space odyssey",
-      Id: 68,
+      Id: "68",
       img: "68.jpg",
       Date: 1968,
       Part: "Older...",
@@ -550,7 +550,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "star wars",
-      Id: 69,
+      Id: "69",
       img: "69.jpg",
       Date: 1977,
       Part: "Older...",
@@ -558,7 +558,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "the matrix",
-      Id: 70,
+      Id: "70",
       img: "70.jpg",
       Date: 1999,
       Part: "Older...",
@@ -566,7 +566,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "blade runner 2049",
-      Id: 71,
+      Id: "71",
       img: "71.jpg",
       Date: 2017,
       Part: "2010s",
@@ -574,7 +574,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "the fountain",
-      Id: 72,
+      Id: "72",
       img: "72.jpg",
       Date: 2006,
       Part: "2000s",
@@ -582,7 +582,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "arrival",
-      Id: 73,
+      Id: "73",
       img: "73.jpg",
       Date: 2016,
       Part: "2010s",
@@ -590,7 +590,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "moon",
-      Id: 74,
+      Id: "74",
       img: "74.jpg",
       Date: 2009,
       Part: "2000s",
@@ -598,7 +598,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "rogue one: a star wars story",
-      Id: 75,
+      Id: "75",
       img: "75.jpg",
       Date: 2016,
       Part: "2010s",
@@ -606,7 +606,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "ex machina",
-      Id: 76,
+      Id: "76",
       img: "76.jpg",
       Date: 2015,
       Part: "2010s",
@@ -614,7 +614,7 @@ const initialState = {
     {
       Category: "Science Fiction",
       Name: "contact",
-      Id: 77,
+      Id: "77",
       img: "77.jpg",
       Date: 1997,
       Part: "Older...",
@@ -622,7 +622,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "fantastic beasts  the secrets of dumbledore",
-      Id: 78,
+      Id: "78",
       img: "78.jpg",
       Date: 2022,
       Part: "2020s",
@@ -630,7 +630,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "harry potter and the deathly hallows: part 2",
-      Id: 79,
+      Id: "79",
       img: "79.jpg",
       Date: 2011,
       Part: "2010s",
@@ -638,7 +638,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the hobbit: an unexpected journey",
-      Id: 80,
+      Id: "80",
       img: "80.jpg",
       Date: 2012,
       Part: "2010s",
@@ -646,7 +646,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the dark knight rises",
-      Id: 81,
+      Id: "81",
       img: "81.jpg",
       Date: 2012,
       Part: "2010s",
@@ -654,7 +654,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "harry potter and the deathly hallows: part 1",
-      Id: 82,
+      Id: "82",
       img: "82.jpg",
       Date: 2010,
       Part: "2010s",
@@ -662,7 +662,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the chronicles of narnia: the voyage of the dawn treader",
-      Id: 83,
+      Id: "83",
       img: "83.jpg",
       Date: 2010,
       Part: "2010s",
@@ -670,7 +670,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "noah",
-      Id: 84,
+      Id: "84",
       img: "84.jpg",
       Date: 2014,
       Part: "2010s",
@@ -678,7 +678,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "warcraft",
-      Id: 85,
+      Id: "85",
       img: "85.jpg",
       Date: 2016,
       Part: "2010s",
@@ -686,7 +686,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the lord of the rings: the two towers",
-      Id: 86,
+      Id: "86",
       img: "86.jpg",
       Date: 2002,
       Part: "2000s",
@@ -694,7 +694,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "harry potter and the prisoner of azkaban",
-      Id: 87,
+      Id: "87",
       img: "87.jpg",
       Date: 2004,
       Part: "2000s",
@@ -702,7 +702,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "crouching tiger, hidden dragon",
-      Id: 88,
+      Id: "88",
       img: "88.jpg",
       Date: 2000,
       Part: "2000s",
@@ -710,7 +710,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "van helsing",
-      Id: 89,
+      Id: "89",
       img: "89.jpg",
       Date: 2004,
       Part: "2000s",
@@ -718,7 +718,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the lord of the rings: the return of the king",
-      Id: 90,
+      Id: "90",
       img: "90.jpg",
       Date: 2003,
       Part: "2000s",
@@ -726,7 +726,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "the lord of the rings: the fellowship of the ring",
-      Id: 91,
+      Id: "91",
       img: "91.jpg",
       Date: 2001,
       Part: "2000s",
@@ -734,7 +734,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "harry potter and the goblet of fire",
-      Id: 92,
+      Id: "92",
       img: "92.jpg",
       Date: 2005,
       Part: "2000s",
@@ -742,7 +742,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "jumanji",
-      Id: 93,
+      Id: "93",
       img: "93.jpg",
       Date: 1995,
       Part: "Older...",
@@ -750,7 +750,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "princess mononoke",
-      Id: 94,
+      Id: "94",
       img: "94.jpg",
       Date: 1997,
       Part: "Older...",
@@ -758,7 +758,7 @@ const initialState = {
     {
       Category: "Fantasy",
       Name: "ghost in the shell",
-      Id: 95,
+      Id: "95",
       img: "95.jpg",
       Date: 1995,
       Part: "Older...",
