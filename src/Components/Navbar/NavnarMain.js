@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function NavnarMain() {
   return (
-    <div className="w-full h-[92px] flex flex-row absolute  justify-between    ">
+    <div className="w-full h-[92px] flex flex-row absolute z-10  justify-between    ">
       <Link to="/">
         <img
           className=" ml-5 w-[350px] h-[82px]  object-cover "

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BrowseBy from "./BrowseBy";
 import { useSelector } from "react-redux";
+
 function FilmsMain() {
   const data = useSelector((state) => state.mert.data);
   const [SelectsValue, setSelectsValue] = useState({ year: "", genre: "" });

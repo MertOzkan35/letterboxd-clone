@@ -41,7 +41,7 @@ function Journal() {
           </p>
         </div>
       </div>
-      <div className="w-full h-full  flex   bg-[#ffff]">
+      <div className="w-full h-full pb-10  flex   bg-[#ffff]">
         <a
           href="https://letterboxd.com/journal/messy-play-halina-reijn-bodies-bodies-bodies/"
           className=" flex items-center justify-center flex-col w-1/3 mx-6 h-full"

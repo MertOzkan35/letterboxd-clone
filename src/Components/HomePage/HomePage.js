@@ -1,9 +1,10 @@
 import React from "react";
 import img from "../../images/Listsmain.jpg";
 import PopularThıs from "./PopularThıs";
+
 function HomePage() {
   return (
-    <div className="w-full justify-start items-center absolute -z-50 flex flex-col bg-[#14181d]">
+    <div className="w-full justify-start items-center relative  flex flex-col bg-[#14181d]">
       <div className="w-full  drop-shadow-2xl  relative">
         <div
           style={{

@@ -18,7 +18,7 @@ function HorrorMovies() {
   ];
 
   return (
-    <div className=" w-full h-full flex flex-col absolute -z-50 ">
+    <div className=" w-full h-full flex flex-col relative ">
       <div className="relative ">
         <div className="w-full  drop-shadow-2xl  relative -z-50">
           <div

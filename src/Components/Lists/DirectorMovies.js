@@ -18,9 +18,12 @@ function DirectorMovies() {
   ];
 
   return (
-    <div className=" w-full h-full flex flex-col absolute -z-50 ">
-      <div className="relative ">
-        <div className="w-full  drop-shadow-2xl  relative -z-50">
+    <div
+      className=" w-full h-full flex flex-col relative
+      "
+    >
+      <div className="relative  ">
+        <div className="w-full  drop-shadow-2xl  relative -z-40">
           <div
             style={{
               backgroundImage: `url(${img})`,
@@ -56,9 +59,9 @@ function DirectorMovies() {
               key={key}
               className="w-full flex justify-center h-[19rem] bg-[#1b2228]   "
             >
-              <div className="w-[11rem] flex   mt-6 object-cover  h-[16rem]  bg-[#ebecf0] rounded-3xl   items-center justify-center  ">
+              <div className="w-[11rem] flex    mt-6 object-cover  h-[16rem]  rounded-3xl   items-center justify-center  ">
                 <img
-                  className=" border-2 border-[#1b2228] hover:border-[#00b020] w-[11rem]  h-[16rem] rounded-3xl object-cover"
+                  className="  w-[11rem] border-2 border-[#1b2228] hover:border-[#00b020]  h-[16rem] rounded-3xl object-cover"
                   src={require(`../../images/${element.img}`)}
                 />
               </div>
