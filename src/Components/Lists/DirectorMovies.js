@@ -57,9 +57,9 @@ function DirectorMovies() {
           return (
             <div
               key={key}
-              className="w-full flex justify-center h-[19rem] bg-[#1b2228]   "
+              className="w-full flex justify-center   h-[19rem] bg-[#1b2228]   "
             >
-              <div className="w-[11rem] flex    mt-6 object-cover  h-[16rem]  rounded-3xl   items-center justify-center  ">
+              <div className="w-[11rem] flex     mt-6 object-cover  h-[16rem]  rounded-3xl   items-center justify-center  ">
                 <img
                   className="  w-[11rem] border-2 border-[#1b2228] hover:border-[#00b020]  h-[16rem] rounded-3xl object-cover"
                   src={require(`../../images/${element.img}`)}
