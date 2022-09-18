@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
 import FilmsMain from "./Components/Films/FilmsMain";
 import ListMain from "./Components/Lists/ListMain";
 import Journal from "./Components/Journal/Journal";
@@ -6,8 +7,10 @@ import HomePage from "./Components/HomePage/HomePage";
 import GoldenMovies from "./Components/Lists/GoldenMovies";
 import HorrorMovies from "./Components/Lists/HorrorMovies";
 import DirectorMovies from "./Components/Lists/DirectorMovies";
+import Profile from "./Components/Profile/profile";
 
 function Pages() {
+  const isLoginValue = useSelector((state) => state.login.login);
   return (
     <div>
       <Routes>
@@ -24,6 +27,8 @@ function Pages() {
         <Route path="/listnum2" element={<HorrorMovies />} />
 
         <Route path="/listnum3" element={<DirectorMovies />} />
+
+        {isLoginValue && <Route path="/profile" element={<Profile />} />}
       </Routes>
     </div>
   );

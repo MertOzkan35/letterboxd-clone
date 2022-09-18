@@ -1,10 +1,20 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { addFavoriteMovie } from "../../store/slices/favoriteMovieSlice";
+import { addWatchMovie } from "../../store/slices/forWatchList";
 
 function PopularThıs() {
   const data = useSelector((state) => state.mert.data);
-  //   const random = Math.floor(Math.random() * 8);
+  const isLoginValue = useSelector((state) => state.login.login);
+  const dispatch = useDispatch();
+
+  const addToFavoriteMovies = (element) => {
+    dispatch(addFavoriteMovie(element));
+  };
+  const addToForWatchMovies = (element) => {
+    dispatch(addWatchMovie(element));
+  };
   return (
     <div className="w-full h-[50rem] bg-[#14181c] flex flex-col">
       <div className="flex flex-col w-4/5 text-[#63707d] ml-32 mt-11 border-b-2 hover:text-[#42668a] hover:border-[#42668a] border-[#445566]">
@@ -15,12 +25,28 @@ function PopularThıs() {
           return (
             <div
               key={key}
-              className="w-[11rem]  h-[16rem]  rounded-3xl mx-7 my-2 flex items-center justify-center  "
+              className="w-[11rem]  h-[16rem]  rounded-3xl mx-7 my-2 flex  items-end justify-center group  "
             >
               <img
-                className=" w-[11rem]  h-[16rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
+                className=" absolute w-[11rem]  h-[16rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
                 src={require(`../../images/${element.img}`)}
               />
+              {isLoginValue && (
+                <div className="w-3/5 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 invisible  group-hover:visible  ease-in-out duration-100 ">
+                  <button onClick={() => addToFavoriteMovies(element)}>
+                    <img
+                      className=" h-6 object-cover hover:bg-[#00b020]  rounded-2xl "
+                      src={require("../../images/eye.png")}
+                    />
+                  </button>
+                  <button onClick={() => addToForWatchMovies(element)}>
+                    <img
+                      className=" h-6 object-cover hover:bg-[#B12403]  rounded-2xl  "
+                      src={require("../../images/heart.png")}
+                    />
+                  </button>
+                </div>
+              )}
             </div>
           );
         })}

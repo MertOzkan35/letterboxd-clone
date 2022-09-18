@@ -1,9 +1,22 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CreateModal from "../Modals/CreateModal";
+import { isLogin } from "../../store/slices/loginSlice";
+import { useSelector, useDispatch } from "react-redux";
 
 function NavnarMain() {
-  const [deneme, setdeneme] = useState(false);
+  const isLoginValue = useSelector((state) => state.login.login);
+  const dispatch = useDispatch();
+  const [modal, setmodal] = useState(false);
+
+  const isLoginFunction = () => {
+    {
+      isLoginValue
+        ? dispatch(isLogin(false)) && localStorage.removeItem("isLogin")
+        : setmodal(!modal);
+    }
+  };
+
   return (
     <div className="w-full h-[92px] flex flex-row absolute z-10  justify-between    ">
       <Link to="/">
@@ -13,13 +26,14 @@ function NavnarMain() {
         />
       </Link>
       <div className="text-[#d8e0e8] font-bold  flex flex-row justify-center text-justfiy items-center pr-12 h-full">
-        <button className="hover:text-[#fefefe] ml-6">SING IN</button>
+        {isLoginValue && (
+          <Link to="/profile" className="hover:text-[#fefefe] ml-6">
+            PROFİLE
+          </Link>
+        )}
 
-        <button
-          onClick={() => setdeneme(!deneme)}
-          className="hover:text-[#fefefe] ml-6"
-        >
-          CREATE ACCOUNT
+        <button onClick={isLoginFunction} className="hover:text-[#fefefe] ml-6">
+          {isLoginValue ? "LOGOUT" : "LOGİN"}
         </button>
 
         <Link className="hover:text-[#fefefe] ml-6" to="/films">
@@ -31,7 +45,7 @@ function NavnarMain() {
         <Link className="hover:text-[#fefefe] ml-6" to="/journal">
           JOURNAL
         </Link>
-        {deneme && <CreateModal deneme={deneme} />}
+        {modal && <CreateModal modal={modal} />}
       </div>
     </div>
   );

@@ -1,8 +1,29 @@
 import React, { useState, createContext, useContext } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { isLogin } from "../../store/slices/loginSlice";
 
 function CreateModal(props) {
-  const [showModal, setShowModal] = useState(props.deneme);
-  console.log(props);
+  const isLoginValue = useSelector((state) => state.login.login);
+  const dispatch = useDispatch();
+  // usestate kısmı
+  const [showModal, setShowModal] = useState(props.modal);
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+
+  function isLoginFunction() {
+    if (userName.length > 0 && password.length > 4) {
+      return (
+        console.log("aboo"),
+        localStorage.setItem("userName", userName),
+        localStorage.setItem("password", password),
+        localStorage.setItem("isLogin", true),
+        dispatch(isLogin(true)),
+        setShowModal(false)
+      );
+    } else {
+      alert("ŞİFRENİZ EN AZ 5 HANELİ OLMALIDIR!");
+    }
+  }
 
   return (
     <div>
@@ -38,13 +59,20 @@ function CreateModal(props) {
                       <p className="text-[#dadee0] font-semibold pb-1">
                         Username
                       </p>
-                      <input className="w-[250px]  h-[40px] bg-[#ccddee] rounded-lg focus:bg-slate-100 pl-2"></input>
+                      <input
+                        className="w-[250px] text-black h-[40px] bg-[#ccddee] rounded-lg focus:bg-slate-100 pl-2"
+                        onChange={(e) => setUserName(e.target.value)}
+                      ></input>
                     </div>
                     <div className="flex flex-col mx-6 mb-4">
                       <p className="text-[#dadee0] font-semibold pb-1">
                         Password
                       </p>
-                      <input className="w-[250px]  h-[40px] bg-[#ccddee] rounded-lg focus:bg-slate-100 pl-2"></input>
+                      <input
+                        type="password"
+                        className="w-[250px] text-black  h-[40px] bg-[#ccddee] rounded-lg focus:bg-slate-100 pl-2"
+                        onChange={(e) => setPassword(e.target.value)}
+                      ></input>
                     </div>
                   </div>
                   {/*footer*/}
@@ -59,9 +87,9 @@ function CreateModal(props) {
                     <button
                       className="bg-[#00b020] mr-6 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none  mb-1 ease-linear transition-all duration-150"
                       type="button"
-                      onClick={() => setShowModal(false)}
+                      onClick={isLoginFunction}
                     >
-                      Sing Up
+                      Login
                     </button>
                   </div>
                 </div>
