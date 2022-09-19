@@ -1,7 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
+const watchListFromLocalStorage = localStorage.getItem("watchList");
+const watchParse = JSON.parse(watchListFromLocalStorage)
+  ? JSON.parse(watchListFromLocalStorage)
+  : [];
 
 const initialState = {
-  watchMovies: [],
+  watchMovies: watchParse.length > 0 ? watchParse : [],
 };
 
 export const watch = createSlice({
@@ -10,12 +14,13 @@ export const watch = createSlice({
   reducers: {
     addWatchMovie: (state, { payload }) => {
       state.watchMovies = [...state.watchMovies, payload];
+      localStorage.setItem("watchList", JSON.stringify(state.watchMovies));
     },
     deleteWatchMovie: (state, { payload }) => {
-      console.log(payload);
       state.watchMovies = state.watchMovies.filter(
         (item) => item.Id !== payload.Id
       );
+      localStorage.setItem("watchList", JSON.stringify(state.watchMovies));
     },
   },
 });

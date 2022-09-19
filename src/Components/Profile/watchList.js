@@ -13,30 +13,42 @@ function WatchList() {
   const watch = useSelector((state) => state.forwatch.watchMovies);
   const dispatch = useDispatch();
 
-  data.map((movie) => {
-    const valueFavoriteRed = favorite.find((x) => x.Id === movie.Id);
-    console.log(valueFavoriteRed);
-  });
+  // data.map((movie) => {
+  //   const valueFavoriteRed = favorite.find((x) => x.Id === movie.Id);
+  //   console.log(valueFavoriteRed);
+  // });
+
+  // const valueFavorite = favorite.map((x) =>
+  //     x.includes(element.Id) ? true : false
+  //   );
+
+  // const valueFavorite = favorite.includes(element) ? true : false;
+  // if (valueFavorite) {
+  //   dispatch(deleteFavoriteMovies(element));
+  // } else {
+  //   dispatch(addFavoriteMovie(element));
+  // }
 
   const addToFavoriteMovies = (element) => {
-    const valueFavorite = favorite.map((x) =>
-      x.includes(element.Id) ? true : false
-    );
-    if (valueFavorite) {
-      dispatch(deleteFavoriteMovies(element));
-    } else {
-      dispatch(addFavoriteMovie(element));
-    }
+    favorite && favorite.find((x) => x.Id === element.Id)
+      ? dispatch(deleteFavoriteMovies(element))
+      : dispatch(addFavoriteMovie(element));
   };
 
   const addToForWatchMovies = (element) => {
-    const valueWatch = watch.includes(element) ? true : false;
-    if (valueWatch) {
-      dispatch(deleteWatchMovie(element));
-    } else {
-      dispatch(addWatchMovie(element));
-    }
+    watch && watch.find((x) => x.Id === element.Id)
+      ? dispatch(deleteWatchMovie(element))
+      : dispatch(addWatchMovie(element));
   };
+
+  // const addToForWatchMovies = (element) => {
+  //   const valueWatch = watch.includes(element) ? true : false;
+  //   if (valueWatch) {
+  //     dispatch(deleteWatchMovie(element));
+  //   } else {
+  //     dispatch(addWatchMovie(element));
+  //   }
+  // };
   return (
     <div className="w-full h-full flex flex-col bg-[#1f252c]  ">
       <div className=" w-full h-[92px] bg-[#14181c]"></div>
@@ -92,8 +104,8 @@ function WatchList() {
         <p>YOUR WATCH LIST</p>
       </div>
       <div className="w-full h-full pt-8 my-16  justify-center items-center  px-24 grid grid-cols-5 gap-8  ">
-        {data &&
-          data.map((element, key) => {
+        {watch &&
+          watch.map((element, key) => {
             return (
               <div className="w-full h-[17rem]  ">
                 <div
@@ -112,23 +124,20 @@ function WatchList() {
                   {isLoginValue && (
                     <div className="w-3/5 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 invisible  group-hover:visible  ease-in-out duration-100 ">
                       <button onClick={() => addToFavoriteMovies(element)}>
-                        {/* <img
+                        <img
                           className={` h-6 object-cover   rounded-2xl ${
                             favorite &&
-                            favorite.map(
-                              (x) =>
-                                (x.Id = element.Id
-                                  ? "bg-[#B12403]"
-                                  : "hover:bg-[#B12403]")
-                            )
+                            favorite.find((x) => x.Id === element.Id)
+                              ? "bg-[#B12403]"
+                              : "hover:bg-[#B12403]"
                           }  `}
                           src={require("../../images/heart.png")}
-                        /> */}
+                        />
                       </button>
                       <button onClick={() => addToForWatchMovies(element)}>
                         <img
                           className={` h-6 object-cover   rounded-2xl ${
-                            watch.includes(element)
+                            watch && watch.find((x) => x.Id === element.Id)
                               ? "bg-[#00b020]"
                               : "hover:bg-[#00b020]"
                           }  `}

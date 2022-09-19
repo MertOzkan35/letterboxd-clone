@@ -16,22 +16,17 @@ function FilmInfo() {
   const watch = useSelector((state) => state.forwatch.watchMovies);
 
   const addToFavoriteMovies = (element) => {
-    const valueFavorite = favorite.includes(element) ? true : false;
-    if (valueFavorite) {
-      dispatch(deleteFavoriteMovies(element));
-    } else {
-      dispatch(addFavoriteMovie(element));
-    }
+    favorite && favorite.find((x) => x.Id === element.Id)
+      ? dispatch(deleteFavoriteMovies(element))
+      : dispatch(addFavoriteMovie(element));
   };
 
   const addToForWatchMovies = (element) => {
-    const valueWatch = watch.includes(element) ? true : false;
-    if (valueWatch) {
-      dispatch(deleteWatchMovie(element));
-    } else {
-      dispatch(addWatchMovie(element));
-    }
+    watch && watch.find((x) => x.Id === element.Id)
+      ? dispatch(deleteWatchMovie(element))
+      : dispatch(addWatchMovie(element));
   };
+
   return (
     <div className="w-full h-full flex flex-col bg-[#1f252c]  ">
       <div className=" w-full h-[92px] bg-[#14181c]"></div>
@@ -70,18 +65,18 @@ function FilmInfo() {
             <div className=" flex justify-center gap-6 p-6 w-4/5 h-[6rem] rounded-lg bg-[#445566]">
               <button onClick={() => addToFavoriteMovies(selectedMovie)}>
                 <img
-                  className={`  object-cover   rounded-2xl ${
-                    favorite.includes(selectedMovie)
+                  className={` h-6 object-cover   rounded-2xl ${
+                    favorite && favorite.find((x) => x.Id === selectedMovie.Id)
                       ? "bg-[#B12403]"
                       : "hover:bg-[#B12403]"
                   }  `}
-                  src={require("../../images/heart2.png")}
+                  src={require("../../images/heart.png")}
                 />
               </button>
               <button onClick={() => addToForWatchMovies(selectedMovie)}>
                 <img
-                  className={`  object-cover   rounded-2xl ${
-                    watch.includes(selectedMovie)
+                  className={` h-6 object-cover   rounded-2xl ${
+                    watch && watch.find((x) => x.Id === selectedMovie.Id)
                       ? "bg-[#00b020]"
                       : "hover:bg-[#00b020]"
                   }  `}
