@@ -8,6 +8,9 @@ import GoldenMovies from "./Components/Lists/GoldenMovies";
 import HorrorMovies from "./Components/Lists/HorrorMovies";
 import DirectorMovies from "./Components/Lists/DirectorMovies";
 import Profile from "./Components/Profile/profile";
+import WatchList from "./Components/Profile/watchList";
+import FavoriteMovies from "./Components/Profile/favoriteMovies";
+import FilmInfo from "./Components/FilmInfo/filmInfo";
 
 function Pages() {
   const isLoginValue = useSelector((state) => state.login.login);
@@ -28,7 +31,13 @@ function Pages() {
 
         <Route path="/listnum3" element={<DirectorMovies />} />
 
+        <Route path="/movie/:id" element={<FilmInfo />} />
+
         {isLoginValue && <Route path="/profile" element={<Profile />} />}
+        {isLoginValue && (
+          <Route path="/favoritemovies" element={<FavoriteMovies />} />
+        )}
+        {isLoginValue && <Route path="/watchlist" element={<WatchList />} />}
       </Routes>
     </div>
   );

@@ -9,6 +9,9 @@ const initialState = {
       img: "1.jpg",
       Date: 2022,
       Part: "2020s",
+      Subject:
+        "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what’s important to her by connecting with the lives she could have led in other universes.",
+      Director: "Daniel Scheinert, Daniel Kwan",
     },
     {
       Category: "Action",
@@ -17,6 +20,9 @@ const initialState = {
       img: "2.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire by challenging him to a duel.",
+      Director: "Ridley Scott",
     },
     {
       Category: "Science Fiction",
@@ -25,6 +31,9 @@ const initialState = {
       img: "3.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity’s greatest potential-only those who can conquer their fear will survive.",
+      Director: " Denis Villeneuve",
     },
     {
       Category: "Drama",
@@ -33,6 +42,9 @@ const initialState = {
       img: "4.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "Yusuke Kafuku, a stage actor and director, still unable, after two years, to cope with the loss of his beloved wife, accepts to direct Uncle Vanja at a theater festival in Hiroshima. There he meets Misaki, an introverted young woman, appointed to drive his car. In between rides, secrets from the past and heartfelt confessions will be unveiled.",
+      Director: "Ryusuke Hamaguchi",
     },
     {
       Category: "Drama",
@@ -41,6 +53,9 @@ const initialState = {
       img: "5.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "Chronicles four years in the life of Julie, a young woman who navigates the troubled waters of her love life and struggles to find her career path, leading her to take a realistic look at who she really is.",
+      Director: "Joachim Trier",
     },
     {
       Category: "Drama",
@@ -49,6 +64,9 @@ const initialState = {
       img: "6.jpg",
       Date: 1997,
       Part: "Older...",
+      Subject:
+        "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+      Director: "Gus Van Sant",
     },
     {
       Category: "Drama",
@@ -57,6 +75,9 @@ const initialState = {
       img: "7.jpg",
       Date: 2013,
       Part: "2010s",
+      Subject:
+        "In the not so distant future, Theodore, a lonely writer purchases a newly developed operating system designed to meet the user’s every needs. To Theodore’s surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
+      Director: "Spike Jonze",
     },
     {
       Category: "Drama",
@@ -65,6 +86,9 @@ const initialState = {
       img: "8.jpg",
       Date: 2020,
       Part: "2020s",
+      Subject:
+        "Undine works as a historian lecturing on Berlin’s urban development. When the man she loves leaves her, the ancient myth catches up with her. But falling in love anew, Undine reworks the myth of the mysterious water spirit as a modern fairy-tale in a disenchanted world.",
+      Director: "Christian Petzold",
     },
     {
       Category: "Drama",
@@ -73,6 +97,9 @@ const initialState = {
       img: "9.jpg",
       Date: 2019,
       Part: "2010s",
+      Subject:
+        "All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      Director: "Bong Joon-ho",
     },
     {
       Category: "Drama",
@@ -81,6 +108,9 @@ const initialState = {
       img: "10.jpg",
       Date: 2014,
       Part: "2010s",
+      Subject:
+        "With his wife’s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it’s suspected that he may not be innocent.",
+      Director: "David Fincher",
     },
     {
       Category: "Drama",
@@ -89,6 +119,9 @@ const initialState = {
       img: "11.jpg",
       Date: 2014,
       Part: "2010s",
+      Subject:
+        "A portrait of Robert, a troubled but poetic soul struggling with his purgatorial existence in a hackney scrapyard.",
+      Director: "Guy Bolongaro",
     },
     {
       Category: "Drama",
@@ -97,6 +130,9 @@ const initialState = {
       img: "12.jpg",
       Date: 2012,
       Part: "2010s",
+      Subject:
+        "An aspiring dancer moves to New York City and becomes caught up in a whirlwind of flighty fair-weather friends, diminishing fortunes and career setbacks.",
+      Director: "Noah Baumbach",
     },
     {
       Category: "Drama",
@@ -105,6 +141,9 @@ const initialState = {
       img: "13.jpg",
       Date: 2009,
       Part: "2000s",
+      Subject:
+        "Nemo Nobody leads an ordinary existence with his wife and 3 children; one day, he wakes up as a mortal centenarian in the year 2092.",
+      Director: "Jaco Van Dormael",
     },
     {
       Category: "Drama",
@@ -113,6 +152,9 @@ const initialState = {
       img: "14.jpg",
       Date: 2008,
       Part: "2000s",
+      Subject:
+        "Born under unusual circumstances, Benjamin Button springs into being as an elderly man in a New Orleans nursing home and ages in reverse. Twelve years after his birth, he meets Daisy, a child who flits in and out of his life as she grows up to be a dancer. Though he has all sorts of unusual adventures over the course of his life, it is his relationship with Daisy, and the hope that they will come together at the right time, that drives Benjamin forward.",
+      Director: "David Fincher",
     },
     {
       Category: "Drama",
@@ -121,6 +163,9 @@ const initialState = {
       img: "15.jpg",
       Date: 2008,
       Part: "2000s",
+      Subject:
+        "Two girlfriends on a summer holiday in Spain become enamored with the same painter, unaware that his ex-wife, with whom he has a tempestuous relationship, is about to re-enter the picture.",
+      Director: "Woody Allen",
     },
     {
       Category: "Drama",
@@ -129,6 +174,9 @@ const initialState = {
       img: "16.jpg",
       Date: 2003,
       Part: "2000s",
+      Subject:
+        "Two lost souls visiting Tokyo  the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial  find an odd solace and pensive freedom to be real in each other’s company, away from their lives in America.",
+      Director: "Sofia Coppola",
     },
     {
       Category: "Drama",
@@ -137,6 +185,9 @@ const initialState = {
       img: "17.jpg",
       Date: 2003,
       Part: "2000s",
+      Subject:
+        "1986 Gyunggi Province. The body of a young woman is found brutally raped and murdered. Two months later, a series of rapes and murders commences under similar circumstances. And in a country that had never known such crimes, the dark whispers about a serial murderer grow louder. A special task force is set up in the area, with two local detectives Park Doo-Man and Jo Young-Goo joined by a detective from Seoul who requested to be assigned to the case.",
+      Director: "Bong Joon-ho",
     },
     {
       Category: "Drama",
@@ -145,6 +196,9 @@ const initialState = {
       img: "18.jpg",
       Date: 1994,
       Part: "Older...",
+      Subject:
+        "Léon, the top hit man in New York, has earned a rep as an effective “cleaner”. But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda’s thoughts turn to revenge, and she considers following in Léon’s footsteps.",
+      Director: "Luc Besson",
     },
     {
       Category: "Drama",
@@ -153,6 +207,9 @@ const initialState = {
       img: "19.jpg",
       Date: 1988,
       Part: "Older...",
+      Subject:
+        "A filmmaker recalls his childhood, when he fell in love with the movies at his village’s theater and formed a deep friendship with the theater’s projectionist.",
+      Director: "Giuseppe Tornatore",
     },
     {
       Category: "Drama",
@@ -161,6 +218,9 @@ const initialState = {
       img: "20.jpg",
       Date: 1975,
       Part: "Older...",
+      Subject:
+        "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy, inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+      Director: "Miloš Forman",
     },
     {
       Category: "Drama",
@@ -169,6 +229,9 @@ const initialState = {
       img: "21.jpg",
       Date: 1957,
       Part: "Older...",
+      Subject:
+        "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors’ prejudices and preconceptions about the trial, the accused, and each other.",
+      Director: "Sidney Lumet",
     },
     {
       Category: "Drama",
@@ -177,14 +240,20 @@ const initialState = {
       img: "22.jpg",
       Date: 1985,
       Part: "Older...",
+      Subject:
+        "The landowner (Agha) of the Haraptar village marries off his old father with the young and beautiful Kiraz. But on the nuptial night, his father dies and everthing starts to go bad for the Agha. Due to the long drought and provocations of Kekec Salman (big brother of Kiraz), the peasants steal the crops and run away to Istanbul.",
+      Director: "Nesli Çölgeçen",
     },
     {
       Category: "Action",
-      Name: "the brath",
+      Name: "the Breath",
       Id: "23",
       img: "23.jpg",
       Date: 2009,
       Part: "2000s",
+      Subject:
+        "A small task force of the Turkish army have to defend a relay station in the middle of nowhere against a possible terrorist raid.",
+      Director: "Levent Semerci",
     },
     {
       Category: "Action",
@@ -193,6 +262,9 @@ const initialState = {
       img: "24.jpg",
       Date: 2016,
       Part: "2010s",
+      Subject:
+        "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
+      Director: "Shane Black",
     },
     {
       Category: "Action",
@@ -201,14 +273,20 @@ const initialState = {
       img: "25.jpg",
       Date: 2015,
       Part: "2010s",
+      Subject:
+        "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+      Director: "Denis Villeneuve",
     },
     {
       Category: "Action",
-      Name: "mad max",
+      Name: "Mad Max: Fury Road",
       Id: "26",
       img: "26.jpg",
       Date: 2015,
       Part: "2010s",
+      Subject:
+        "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      Director: "George Miller",
     },
     {
       Category: "Action",
@@ -217,6 +295,9 @@ const initialState = {
       img: "27.jpg",
       Date: 2014,
       Part: "2010s",
+      Subject:
+        "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
+      Director: "Frank Miller",
     },
     {
       Category: "Action",
@@ -225,6 +306,9 @@ const initialState = {
       img: "28.jpg",
       Date: 2013,
       Part: "2010s",
+      Subject:
+        "In a future where a failed global-warming experiment kills off most life on the planet, a class system evolves aboard the Snowpiercer, a train that travels around the globe via a perpetual-motion engine.",
+      Director: "Bong Joon-ho",
     },
     {
       Category: "Action",
@@ -233,6 +317,9 @@ const initialState = {
       img: "29.jpg",
       Date: 2012,
       Part: "2010s",
+      Subject:
+        "When Bond’s latest assignment goes gravely wrong and agents around the world are exposed, MI6 is attacked forcing M to relocate the agency. These events cause her authority and position to be challenged by Gareth Mallory, the new Chairman of the Intelligence and Security Committee.",
+      Director: "Sam Mendes",
     },
     {
       Category: "Action",
@@ -241,6 +328,9 @@ const initialState = {
       img: "30.jpg",
       Date: 2011,
       Part: "2010s",
+      Subject:
+        "An assassin is shot and almost killed by her ruthless employer, Bill, and other members of their assassination circle  but she lives to plot her vengeance. Kill Bill: The Whole Bloody Affair is a complete edit of the two-part martial arts action films Kill Bill: Vol. 1 and Kill Bill: Vol. 2. The film was originally scheduled to be released as one part. However, due to the film’s over 4 hour running time, it was split into two parts.",
+      Director: "Quentin Tarantino",
     },
     {
       Category: "Action",
@@ -249,6 +339,9 @@ const initialState = {
       img: "31.jpg",
       Date: 2008,
       Part: "Older...",
+      Subject:
+        "When a Russian mobster sets up a real estate scam that generates millions of pounds, various members of London’s criminal underworld pursue their share of the fortune. Various shady characters, including Mr One-Two, Stella the accountant, and Johnny Quid, a druggie rock-star, try to claim their slice.",
+      Director: "Guy Ritchie",
     },
     {
       Category: "Action",
@@ -257,6 +350,9 @@ const initialState = {
       img: "32.jpg",
       Date: 2022,
       Part: "2020s",
+      Subject:
+        "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen. Facing an uncertain future and confronting the ghosts of his past, Maverick is drawn into a confrontation with his own deepest fears, culminating in a mission that demands the ultimate sacrifice from those who will be chosen to fly it",
+      Director: "Joseph Kosinski",
     },
     {
       Category: "Action",
@@ -265,6 +361,9 @@ const initialState = {
       img: "33.jpg",
       Date: 2006,
       Part: "2000s",
+      Subject:
+        "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child’s birth may help scientists save the future of humankind.",
+      Director: "Alfonso Cuarón",
     },
     {
       Category: "Action",
@@ -273,6 +372,9 @@ const initialState = {
       img: "34.jpg",
       Date: 2005,
       Part: "2000s",
+      Subject:
+        "John Constantine has literally been to Hell and back. When he teams up with a policewoman to solve the mysterious suicide of her twin sister, their investigation takes them through the world of demons and angels that exists beneath the landscape of contemporary Los Angeles.",
+      Director: "Francis Lawrence",
     },
     {
       Category: "Action",
@@ -281,6 +383,9 @@ const initialState = {
       img: "35.jpg",
       Date: 1998,
       Part: "Older...",
+      Subject:
+        "When Blade’s mother was bitten by a vampire during pregnancy, she did not know that she gave her son a special gift while dying—all the good vampire attributes in combination with the best human skills. Blade and his mentor battle an evil vampire rebel who plans to take over the outdated vampire council, capture Blade and resurrect a voracious blood god.",
+      Director: " Stephen Norrington",
     },
     {
       Category: "Action",
@@ -289,6 +394,9 @@ const initialState = {
       img: "36.jpg",
       Date: 2005,
       Part: "2000s",
+      Subject:
+        "After his wife dies, a blacksmith named Balian is thrust into royalty, political intrigue and bloody holy wars during the Crusades.",
+      Director: "Ridley Scott",
     },
     {
       Category: "Action",
@@ -297,6 +405,9 @@ const initialState = {
       img: "37.jpg",
       Date: 1971,
       Part: "Older...",
+      Subject:
+        "Depiction of the life of the legendary Muslim Serdar of Malatya, Battal Gazi.",
+      Director: "Atıf Yılmaz",
     },
     {
       Category: "Action",
@@ -305,6 +416,9 @@ const initialState = {
       img: "38.jpg",
       Date: 1995,
       Part: "Older...",
+      Subject:
+        "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord’s soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+      Director: "Mel Gibson",
     },
     {
       Category: "Action",
@@ -313,6 +427,9 @@ const initialState = {
       img: "39.jpg",
       Date: 1995,
       Part: "Older...",
+      Subject:
+        "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+      Director: "Michael Mann",
     },
     {
       Category: "Action",
@@ -321,6 +438,9 @@ const initialState = {
       img: "40.jpg",
       Date: 1999,
       Part: "Older...",
+      Subject:
+        "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army’s most capable and trusted generals and a key advisor to the emperor. As Marcus’ devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.",
+      Director: "Ridley Scott",
     },
     {
       Category: "Action",
@@ -329,6 +449,9 @@ const initialState = {
       img: "41.jpg",
       Date: 2003,
       Part: "2000s",
+      Subject:
+        "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai’s way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
+      Director: "Edward Zwick",
     },
     {
       Category: "Action",
@@ -337,6 +460,9 @@ const initialState = {
       img: "42.jpg",
       Date: 2004,
       Part: "2000s",
+      Subject:
+        "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnom to help him get her back. Agamemnon sees this as an opportunity for power. So they set off with 1,000 ships holding 50,000 Greeks to Troy. With the help of Achilles, the Greeks are able to fight the never before defeated Trojans",
+      Director: "Wolfgang Petersen",
     },
     {
       Category: "Comedy",
@@ -345,6 +471,9 @@ const initialState = {
       img: "43.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "A quirky, dysfunctional family’s road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity’s unlikeliest last hope.",
+      Director: "Michael Rianda",
     },
     {
       Category: "Comedy",
@@ -353,6 +482,9 @@ const initialState = {
       img: "44.jpg",
       Date: 2017,
       Part: "2010s",
+      Subject:
+        "The neurotic Fikret and tavern singer Solmaz, whose 21 year long relationships end on the same day, meet through a funny coincidence. When Solmaz’s daughter Zeynep decides to marry her lover from Adana, the ever-fearful Fikret ends up having to play the role of his life. Intended at first to be kept in the family, the wedding becomes a much bigger event upon the insistence of the groom’s relatives. Can our heroes come to terms with the traditional Adana family who carry guns and own a kebab restaurant chain, and see the wedding through without mishaps?",
+      Director: " Ozan Açıktan",
     },
     {
       Category: "Comedy",
@@ -361,6 +493,9 @@ const initialState = {
       img: "45.jpg",
       Date: 2011,
       Part: "2010s",
+      Subject:
+        "A plastic surgeon, romancing a much younger schoolteacher, enlists his loyal assistant to pretend to be his soon to be ex-wife, in order to cover up a careless lie. When more lies backfire, the assistant’s kids become involved, and everyone heads off for a weekend in Hawaii that will change all their lives.",
+      Director: "Dennis Dugan",
     },
     {
       Category: "Comedy",
@@ -369,6 +504,9 @@ const initialState = {
       img: "46.jpg",
       Date: 2010,
       Part: "2010s",
+      Subject:
+        "Five people who knew each other for a long time a group of friends, to attend the wedding of a mutual friend goes to Buyukada. Erhan, weddings, and long intervals, the team can come together to be able to record their happy moments brought a camera, and is continuous. All throughout the film viewed, it is reflected from the camera. Later a group of wedding guests attacking zombie, turns into a mess of blood.",
+      Director: "Talip Ertürk",
     },
     {
       Category: "Comedy",
@@ -377,6 +515,9 @@ const initialState = {
       img: "47.jpg",
       Date: 2008,
       Part: "2000s",
+      Subject:
+        "Commander Logar fools Arif and sends him 1.000.000 years back in the time. He must civilize people from past to reach today.",
+      Director: "Ali Taner Baltaci",
     },
     {
       Category: "Comedy",
@@ -385,6 +526,9 @@ const initialState = {
       img: "48.jpg",
       Date: 2007,
       Part: "2000s",
+      Subject:
+        "Corporate billionaire Edward Cole and working class mechanic Carter Chambers are worlds apart. At a crossroads in their lives, they share a hospital room and discover they have two things in common: a desire to spend the time they have left doing everything they ever wanted to do and an unrealized need to come to terms with who they are. Together they embark on the road trip of a lifetime, becoming friends along the way and learning to live life to the fullest, with insight and humor.",
+      Director: "Rob Reiner",
     },
     {
       Category: "Comedy",
@@ -393,6 +537,9 @@ const initialState = {
       img: "49.jpg",
       Date: 2006,
       Part: "2000s",
+      Subject:
+        "Failed magician Iskender decides to do a tour to save his career, but has to bring his grumpy and senile father along. The tour is quite unexpectedly interrupted when a bride actually disappears from the stage.",
+      Director: "Ali Taner Baltaci",
     },
     {
       Category: "Comedy",
@@ -401,6 +548,9 @@ const initialState = {
       img: "50.jpg",
       Date: 2005,
       Part: "2000s",
+      Subject:
+        "Based on a true event, Pardon tells the tragicomic story of three friends who end up in prison when they are mistaken as members of a terrorist organization. Ibrahim’s fear of uniforms makes him runaway whenever he sees one. Because of this, police mistakes him with a terrorist and takes him and his friend Muzo into custody. Fooled by the police during the interrogation they name another friend, Aydin, in hope of saving themselves. As they all end up in prison, they remember the families and lovers they left behind.",
+      Director: "Mert Baykal",
     },
     {
       Category: "Comedy",
@@ -409,6 +559,9 @@ const initialState = {
       img: "51.jpg",
       Date: 2004,
       Part: "2000s",
+      Subject:
+        "Hayri and Orhan are two music producers head over heels in debt. In an attempt to find the next big thing to turn the business around, they contact Ferhat, a gastarbeiter in Germany, and desperately bring him to Istanbul to sign him. As they are struggling to find the necessary funds to promote Ferhat’s debut album, a mysterious rich woman named Firuze shows up and starts supporting them. The future now seems bright, but things are not always what they seem…",
+      Director: "Ezel Akay",
     },
     {
       Category: "Comedy",
@@ -417,6 +570,9 @@ const initialState = {
       img: "52.jpg",
       Date: 2001,
       Part: "2000s",
+      Subject:
+        "The story takes place in a small town (called Hakkari) in Turkey at the beginning of the 70’s. The time has come to bring technology into that small town. The first Television (or called Visiontele by the citizens) arrives and the chaos begins.",
+      Director: "Yılmaz Erdoğan",
     },
     {
       Category: "Comedy",
@@ -425,6 +581,9 @@ const initialState = {
       img: "53.jpg",
       Date: 1975,
       Part: "Older...",
+      Subject:
+        "Lazy, uneducated students mostly coming from money, share a very close band. They live together in the dormitory of this private highschool, where they daily plan their latest pranks on teachers or the other classes. When a new and obviously strict headmaster arrives, the students naturally try to overthrow him. A comic war of nitwits follows.",
+      Director: "Ertem Eğilmez",
     },
     {
       Category: "Horror",
@@ -433,6 +592,9 @@ const initialState = {
       img: "54.jpg",
       Date: 2021,
       Part: "2020s",
+      Subject:
+        "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+      Director: "James Wan",
     },
     {
       Category: "Horror",
@@ -441,6 +603,9 @@ const initialState = {
       img: "55.jpg",
       Date: 2019,
       Part: "2010s",
+      Subject:
+        "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
+      Director: "Ari Aster",
     },
     {
       Category: "Horror",
@@ -449,6 +614,9 @@ const initialState = {
       img: "56.jpg",
       Date: 2018,
       Part: "2010s",
+      Subject:
+        "Young dancers gather in a remote and empty school building to rehearse on a cold and wintry night. The all-night celebration soon turns into a hallucinatory nightmare when they learn that their sangria is laced with LSD.",
+      Director: "Gaspar Noé",
     },
     {
       Category: "Horror",
@@ -457,6 +625,9 @@ const initialState = {
       img: "57.jpg",
       Date: 2018,
       Part: "2010s",
+      Subject:
+        "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+      Director: "John Krasinski",
     },
     {
       Category: "Horror",
@@ -465,6 +636,9 @@ const initialState = {
       img: "58.jpg",
       Date: 2018,
       Part: "2010s",
+      Subject:
+        "When Ellen, the matriarch of the Graham family, passes away, her daughter’s family begins to unravel cryptic and increasingly terrifying secrets about their ancestry.",
+      Director: "Ari Aster",
     },
     {
       Category: "Horror",
@@ -473,6 +647,9 @@ const initialState = {
       img: "59.jpg",
       Date: 2017,
       Part: "2010s",
+      Subject:
+        "The six-member crew of the International Space Station is tasked with studying a sample from Mars that may be the first proof of extra-terrestrial life, which proves more intelligent than ever expected.",
+      Director: "Daniel Espinosa",
     },
 
     {
@@ -482,6 +659,9 @@ const initialState = {
       img: "60.jpg",
       Date: 2017,
       Part: "2010s",
+      Subject:
+        "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family’s overly accommodating behavior as nervous attempts to deal with their daughter’s interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+      Director: "Jordan Peele",
     },
     {
       Category: "Horror",
@@ -490,6 +670,9 @@ const initialState = {
       img: "61.jpg",
       Date: 2015,
       Part: "2010s",
+      Subject:
+        "In 1630s New England, William and Katherine lead a devout Christian life with five children, homesteading on the edge of an impassable wilderness, exiled from their settlement when William defies the local church. When their newborn son vanishes and crops mysteriously fail, the family turns on one another.",
+      Director: "Robert Eggers",
     },
     {
       Category: "Horror",
@@ -498,6 +681,9 @@ const initialState = {
       img: "62.jpg",
       Date: 2013,
       Part: "2010s",
+      Subject:
+        "Given the country’s overcrowded prisons, the U.S. government begins to allow 12-hour periods of time in which all illegal activity is legal. During one of these free-for-alls, a family must protect themselves from a home invasion.",
+      Director: "James DeMonaco",
     },
     {
       Category: "Horror",
@@ -506,6 +692,9 @@ const initialState = {
       img: "63.jpg",
       Date: 2001,
       Part: "2000s",
+      Subject:
+        "Grace is a religious woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
+      Director: "Alejandro Amenábar",
     },
     {
       Category: "Horror",
@@ -514,6 +703,9 @@ const initialState = {
       img: "64.jpg",
       Date: 1980,
       Part: "Older...",
+      Subject:
+        "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren’t prepared for the madness that lurks within.",
+      Director: "Stanley Kubrick",
     },
     {
       Category: "Horror",
@@ -522,6 +714,9 @@ const initialState = {
       img: "65.jpg",
       Date: 1979,
       Part: "Older...",
+      Subject:
+        "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+      Director: " Ridley Scott",
     },
     {
       Category: "Horror",
@@ -530,6 +725,9 @@ const initialState = {
       img: "66.jpg",
       Date: 1975,
       Part: "Older...",
+      Subject:
+        "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.",
+      Director: "Steven Spielberg",
     },
     {
       Category: "Horror",
@@ -538,6 +736,9 @@ const initialState = {
       img: "67.jpg",
       Date: 1960,
       Part: "Older...",
+      Subject:
+        "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
+      Director: "Alfred Hitchcock",
     },
     {
       Category: "Science Fiction",
@@ -546,6 +747,9 @@ const initialState = {
       img: "68.jpg",
       Date: 1968,
       Part: "Older...",
+      Subject:
+        "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world’s most advanced super computer.",
+      Director: " Stanley Kubrick",
     },
     {
       Category: "Science Fiction",
@@ -554,6 +758,9 @@ const initialState = {
       img: "69.jpg",
       Date: 1977,
       Part: "Older...",
+      Subject:
+        "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+      Director: "George Lucas",
     },
     {
       Category: "Science Fiction",
@@ -562,6 +769,9 @@ const initialState = {
       img: "70.jpg",
       Date: 1999,
       Part: "Older...",
+      Subject:
+        "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+      Director: "Lilly Wachowski, Lana Wachowski",
     },
     {
       Category: "Science Fiction",
@@ -570,6 +780,9 @@ const initialState = {
       img: "71.jpg",
       Date: 2017,
       Part: "2010s",
+      Subject:
+        "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what’s left of society into chaos. K’s discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+      Director: "Denis Villeneuve",
     },
     {
       Category: "Science Fiction",
@@ -578,6 +791,9 @@ const initialState = {
       img: "72.jpg",
       Date: 2006,
       Part: "2000s",
+      Subject:
+        "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.",
+      Director: "Darren Aronofsky",
     },
     {
       Category: "Science Fiction",
@@ -586,6 +802,9 @@ const initialState = {
       img: "73.jpg",
       Date: 2016,
       Part: "2010s",
+      Subject:
+        "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      Director: "Denis Villeneuve",
     },
     {
       Category: "Science Fiction",
@@ -594,6 +813,9 @@ const initialState = {
       img: "74.jpg",
       Date: 2009,
       Part: "2000s",
+      Subject:
+        "With only three weeks left in his three year contract, Sam Bell is getting anxious to finally return to Earth. He is the only occupant of a Moon-based manufacturing facility along with his computer and assistant, GERTY. When he has an accident however, he wakens to find that he is not alone.",
+      Director: "Duncan Jones",
     },
     {
       Category: "Science Fiction",
@@ -602,6 +824,9 @@ const initialState = {
       img: "75.jpg",
       Date: 2016,
       Part: "2010s",
+      Subject:
+        "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",
+      Director: "Gareth Edwards",
     },
     {
       Category: "Science Fiction",
@@ -610,6 +835,9 @@ const initialState = {
       img: "76.jpg",
       Date: 2015,
       Part: "2010s",
+      Subject:
+        "Caleb, a coder at the world’s largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world’s first true artificial intelligence, housed in the body of a beautiful robot girl.",
+      Director: "Alex Garland",
     },
     {
       Category: "Science Fiction",
@@ -618,6 +846,9 @@ const initialState = {
       img: "77.jpg",
       Date: 1997,
       Part: "Older...",
+      Subject:
+        "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+      Director: "Robert Zemeckis",
     },
     {
       Category: "Fantasy",
@@ -626,6 +857,9 @@ const initialState = {
       img: "78.jpg",
       Date: 2022,
       Part: "2020s",
+      Subject:
+        "In an effort to thwart Grindelwald’s plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, though he’s unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      Director: "David Yates",
     },
     {
       Category: "Fantasy",
@@ -634,6 +868,9 @@ const initialState = {
       img: "79.jpg",
       Date: 2011,
       Part: "2010s",
+      Subject:
+        "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort’s formidable skills.",
+      Director: "David Yates",
     },
     {
       Category: "Fantasy",
@@ -642,6 +879,9 @@ const initialState = {
       img: "80.jpg",
       Date: 2012,
       Part: "2010s",
+      Subject:
+        "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
+      Director: "Peter Jackson",
     },
     {
       Category: "Fantasy",
@@ -650,6 +890,9 @@ const initialState = {
       img: "81.jpg",
       Date: 2012,
       Part: "2010s",
+      Subject:
+        "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent’s crimes to protect the late attorney’s reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham’s finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+      Director: "Christopher Nolan",
     },
     {
       Category: "Fantasy",
@@ -658,14 +901,20 @@ const initialState = {
       img: "82.jpg",
       Date: 2010,
       Part: "2010s",
+      Subject:
+        "Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort’s bid for immortality. But with Harry’s beloved Dumbledore dead and Voldemort’s unscrupulous Death Eaters on the loose, the world is more dangerous than ever.",
+      Director: "David Yates",
     },
     {
       Category: "Fantasy",
-      Name: "the chronicles of narnia: the voyage of the dawn treader",
+      Name: "the chronicles of narnia",
       Id: "83",
       img: "83.jpg",
       Date: 2010,
       Part: "2010s",
+      Subject:
+        "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world.",
+      Director: "Michael Apted",
     },
     {
       Category: "Fantasy",
@@ -674,6 +923,9 @@ const initialState = {
       img: "84.jpg",
       Date: 2014,
       Part: "2010s",
+      Subject:
+        "A man who suffers visions of an apocalyptic deluge takes measures to protect his family from the coming flood.",
+      Director: "Darren Aronofsky",
     },
     {
       Category: "Fantasy",
@@ -682,6 +934,9 @@ const initialState = {
       img: "85.jpg",
       Date: 2016,
       Part: "2010s",
+      Subject:
+        "The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of invaders: orc warriors fleeing their dying home to colonize another. As a portal opens to connect the two worlds, one army faces destruction and the other faces extinction. From opposing sides, two heroes are set on a collision course that will decide the fate of their family, their people, and their home.",
+      Director: " Duncan Jones",
     },
     {
       Category: "Fantasy",
@@ -690,6 +945,9 @@ const initialState = {
       img: "86.jpg",
       Date: 2002,
       Part: "2000s",
+      Subject:
+        "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+      Director: "Peter Jackson",
     },
     {
       Category: "Fantasy",
@@ -698,6 +956,9 @@ const initialState = {
       img: "87.jpg",
       Date: 2004,
       Part: "2000s",
+      Subject:
+        "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black—and turns to sympathetic Professor Lupin for help.",
+      Director: "Alfonso Cuarón",
     },
     {
       Category: "Fantasy",
@@ -706,6 +967,9 @@ const initialState = {
       img: "88.jpg",
       Date: 2000,
       Part: "2000s",
+      Subject:
+        "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman’s daughter, who is at a crossroads in her lif",
+      Director: "Ang Lee",
     },
     {
       Category: "Fantasy",
@@ -714,6 +978,9 @@ const initialState = {
       img: "89.jpg",
       Date: 2004,
       Part: "2000s",
+      Subject:
+        "Famed monster slayer Gabriel Van Helsing is dispatched to Transylvania to assist the last of the Valerious bloodline in defeating Count Dracula. Anna Valerious reveals that Dracula has formed an unholy alliance with Dr. Frankenstein’s monster and is hell-bent on exacting a centuries-old curse on her family.",
+      Director: "Stephen Sommers",
     },
     {
       Category: "Fantasy",
@@ -722,6 +989,9 @@ const initialState = {
       img: "90.jpg",
       Date: 2003,
       Part: "2000s",
+      Subject:
+        "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron’s forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord’s realm.",
+      Director: "Peter Jackson",
     },
     {
       Category: "Fantasy",
@@ -730,6 +1000,9 @@ const initialState = {
       img: "91.jpg",
       Date: 2001,
       Part: "2000s",
+      Subject:
+        "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+      Director: "Peter Jackson",
     },
     {
       Category: "Fantasy",
@@ -738,6 +1011,9 @@ const initialState = {
       img: "92.jpg",
       Date: 2005,
       Part: "2000s",
+      Subject:
+        "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure  but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+      Director: "Mike Newell",
     },
     {
       Category: "Fantasy",
@@ -746,6 +1022,9 @@ const initialState = {
       img: "93.jpg",
       Date: 1995,
       Part: "Older...",
+      Subject:
+        "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan  an adult who’s been trapped inside the game for 26 years  into their living room. Alan’s only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
+      Director: "Joe Johnston",
     },
     {
       Category: "Fantasy",
@@ -754,6 +1033,9 @@ const initialState = {
       img: "94.jpg",
       Date: 1997,
       Part: "Older...",
+      Subject:
+        "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+      Director: "Hayao Miyazaki",
     },
     {
       Category: "Fantasy",
@@ -762,6 +1044,9 @@ const initialState = {
       img: "95.jpg",
       Date: 1995,
       Part: "Older...",
+      Subject:
+        "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as ‘The Puppetmaster’ begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.",
+      Director: "Mamoru Oshii",
     },
   ],
 };

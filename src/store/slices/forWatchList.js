@@ -9,12 +9,17 @@ export const watch = createSlice({
   initialState: initialState,
   reducers: {
     addWatchMovie: (state, { payload }) => {
-      console.log(payload);
       state.watchMovies = [...state.watchMovies, payload];
+    },
+    deleteWatchMovie: (state, { payload }) => {
+      console.log(payload);
+      state.watchMovies = state.watchMovies.filter(
+        (item) => item.Id !== payload.Id
+      );
     },
   },
 });
 
-export const { addWatchMovie } = watch.actions;
+export const { addWatchMovie, deleteWatchMovie } = watch.actions;
 
 export default watch.reducer;

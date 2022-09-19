@@ -1,58 +1,17 @@
-import React, { useState, useEffect } from "react";
-import BrowseBy from "./BrowseBy";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addFavoriteMovie } from "../../store/slices/favoriteMovieSlice";
 import { addWatchMovie } from "../../store/slices/forWatchList";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { deleteWatchMovie } from "../../store/slices/forWatchList";
 import { deleteFavoriteMovies } from "../../store/slices/favoriteMovieSlice";
 
-function FilmsMain() {
+function FavoriteMovies() {
   const data = useSelector((state) => state.mert.data);
   const isLoginValue = useSelector((state) => state.login.login);
-  const [SelectsValue, setSelectsValue] = useState({ year: "", genre: "" });
   const favorite = useSelector((state) => state.favorite.favoriteMovies);
   const watch = useSelector((state) => state.forwatch.watchMovies);
-  const [NewData, setNewData] = useState(data);
-  const [filterData, setFilterData] = useState(data);
   const dispatch = useDispatch();
-  useEffect(() => {
-    filter();
-  }, [SelectsValue]);
-  const YearSelectValue = async (event) => {
-    let { year, genre } = SelectsValue;
-    // bu year : SelectsValue.year ın kısa hali
-    if (event.year) {
-      year = event.year;
-    }
-    if (event.genre) {
-      genre = event.genre;
-    }
-
-    setSelectsValue({ ...SelectsValue, year, genre });
-  };
-
-  const filter = () => {
-    if (SelectsValue.year === "Year" && SelectsValue.genre === "Genre") {
-      setFilterData(NewData);
-    } else if (SelectsValue.genre !== "" || SelectsValue.year !== "") {
-      setFilterData(
-        NewData.filter((item) =>
-          SelectsValue.genre !== "" && SelectsValue.year !== ""
-            ? item.Category === SelectsValue?.genre &&
-              item.Part === SelectsValue?.year
-            : item.Category === SelectsValue?.genre ||
-              item.Part === SelectsValue?.year
-        )
-      );
-    }
-  };
-
-  const FilmName = (event) => {
-    const name = event.toLowerCase();
-    setFilterData(NewData);
-    setFilterData(NewData.filter((item) => item.Name.includes(name)));
-  };
 
   const addToFavoriteMovies = (element) => {
     const valueFavorite = favorite.includes(element) ? true : false;
@@ -72,14 +31,64 @@ function FilmsMain() {
     }
   };
   return (
-    <div className=" w-full h-full flex flex-col  ">
-      <div className="w-full h-[92px] bg-[#14181c]"></div>
-      <BrowseBy ChangeYear={YearSelectValue} FilmName={FilmName} />
-      <div className="w-full h-full pt-8  bg-[#1b2228] px-12  grid grid-cols-6 gap-10 ">
-        {filterData &&
-          filterData.map((element, key) => {
+    <div className="w-full h-full flex flex-col bg-[#1f252c]  ">
+      <div className=" w-full h-[92px] bg-[#14181c]"></div>
+      <div className="w-full h-[192px] flex justify-start  pl-28 py-16 bg-[#1f252c]  ">
+        <p className=" w-1/5  h-full font-bold text-2xl text-[#fffffe] hover:text-[#61dafb] pt-3">
+          Welcome {localStorage.getItem("userName")}
+        </p>
+
+        <div className="flex flex-col ml-32 justify-center w-32 text-center border-r-2 border-[#232d38]">
+          <p className="  h-full font-bold text-2xl text-[#fffffe]">
+            {favorite.length}
+          </p>
+          <p className="  h-full font-bold  text-[#fffffe] text-xs font-serif opacity-40 hover:text-[#61dafb] hover:opacity-80">
+            FAVORİTE
+          </p>
+        </div>
+        <div className="flex flex-col  justify-center w-32 text-center ">
+          <p className="  h-full font-bold text-2xl text-[#fffffe]">
+            {watch.length}
+          </p>
+          <p className="  h-full font-bold  text-[#fffffe] text-xs font-serif opacity-40 hover:text-[#61dafb] hover:opacity-80">
+            WATCH LIST
+          </p>
+        </div>
+        <div className="w-1/2 h-36 flex justify-center items-center text-center">
+          <img
+            className=" h-full  object-cover ml-32 mb-16 rounded-2xl "
+            src={require("../../images/cowboyk.jpg")}
+          />
+        </div>
+      </div>
+      <div className=" w-4/5 h-[72px] flex  gap-5 justify-start items-center pl-6  mx-28  my-12 bg-[#1f252c] border-2 border-[#232d38] ">
+        <Link to="/profile">
+          <button className="font-bold  text-[#fffffe]  font-serif opacity-40 hover:text-[#61dafb] hover:opacity-80 ">
+            {" "}
+            PROFİLE
+          </button>
+        </Link>
+        <Link to="/favoritemovies">
+          <button className="font-bold  text-[#fffffe]  font-serif opacity-40 hover:text-[#61dafb] hover:opacity-80 ">
+            {" "}
+            FAVORİTE
+          </button>
+        </Link>
+        <Link to="/watchlist">
+          <button className="font-bold  text-[#fffffe]  font-serif opacity-40 hover:text-[#61dafb] hover:opacity-80 ">
+            {" "}
+            WATCH LIST
+          </button>
+        </Link>
+      </div>
+      <div className="flex flex-col w-4/5 text-[#63707d] ml-32   border-b-2 hover:text-[#42668a] hover:border-[#42668a] border-[#445566]">
+        <p>YOUR FAVORİTE MOVİES</p>
+      </div>
+      <div className="w-full h-full pt-8 my-16  justify-center items-center  px-24 grid grid-cols-5 gap-8  ">
+        {favorite &&
+          favorite.map((element, key) => {
             return (
-              <div className="w-full h-[17rem] bg-[#1b2228] ">
+              <div className="w-full h-[17rem]  ">
                 <div
                   key={key}
                   className="  flex  justify-center items-end   w-[11rem]  object-cover  h-[16rem]  bg-[#ebecf0] rounded-3xl  group  "
@@ -89,7 +98,7 @@ function FilmsMain() {
                     to={`/movie/${element.Id}`}
                   >
                     <img
-                      className=" absolute border-2 border-[#1b2228] hover:border-[#00b020] w-[11rem]  h-[16rem] rounded-3xl object-cover "
+                      className=" absolute w-[11rem]  h-[16rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
                       src={require(`../../images/${element.img}`)}
                     />
                   </Link>
@@ -126,4 +135,4 @@ function FilmsMain() {
   );
 }
 
-export default FilmsMain;
+export default FavoriteMovies;

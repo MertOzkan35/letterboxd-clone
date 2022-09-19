@@ -18,39 +18,39 @@ function ListMain() {
                   src={require("../../images/17list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[25px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[30px]"
                   src={require("../../images/21list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[50px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[60px]"
                   src={require("../../images/5list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[75px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[90px]"
                   src={require("../../images/16list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[100px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[120px]"
                   src={require("../../images/19list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[125px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[150px]"
                   src={require("../../images/20list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[150px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[180px]"
                   src={require("../../images/28list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[175px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[210px]"
                   src={require("../../images/33list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[200px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[240px]"
                   src={require("../../images/77list1.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[215px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[263px]"
                   src={require("../../images/94list1.jpg")}
                 />
               </div>
@@ -76,40 +76,40 @@ function ListMain() {
                   src={require("../../images/list255.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[25px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[30px]"
                   src={require("../../images/list254.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[50px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[60px]"
                   src={require("../../images/list257.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[75px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[90px]"
                   src={require("../../images/list258.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[100px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[120px]"
                   src={require("../../images/list260.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[125px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[150px]"
                   src={require("../../images/list261.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[150px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[180px]"
                   src={require("../../images/list262.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[175px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[210px]"
                   src={require("../../images/list263.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[200px]"
-                  src={require("../../images/list265.jpg")}
+                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[240px]"
+                  src={require("../../images/list267.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[215px]"
-                  src={require("../../images/list267.jpg")}
+                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[263px]"
+                  src={require("../../images/list265.jpg")}
                 />
               </div>
             </Link>
@@ -133,39 +133,39 @@ function ListMain() {
                   src={require("../../images/list33.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[25px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[9] right-[30px]"
                   src={require("../../images/list31.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[50px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[8] right-[60px]"
                   src={require("../../images/list39.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[75px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[7] right-[90px]"
                   src={require("../../images/list34.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[100px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[6] right-[120px]"
                   src={require("../../images/list351.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[125px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[5] right-[150px]"
                   src={require("../../images/list312.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[150px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[4] right-[180px]"
                   src={require("../../images/list313.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[175px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[3] right-[210px]"
                   src={require("../../images/list370.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[200px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[2] right-[240px]"
                   src={require("../../images/list311.jpg")}
                 />
                 <img
-                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[215px]"
+                  className="   h-[7rem] rounded-xl object-cover relative z-[1] right-[263px]"
                   src={require("../../images/list38.jpg")}
                 />
               </div>
