@@ -20,12 +20,6 @@ function App() {
     }
   }, [isUserLogin]);
 
-  // useEffect(() => {
-  //   if (favoritesFromLocalStorage) {
-  //     dispatch(addFavoriteMovie({}));
-  //   }
-  // }, [favoritesFromLocalStorage]);
-
   return (
     <div>
       <NavnarMain />

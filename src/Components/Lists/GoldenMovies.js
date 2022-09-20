@@ -37,7 +37,7 @@ function GoldenMovies() {
       : dispatch(addWatchMovie(element));
   };
   return (
-    <div className=" w-full h-full flex flex-col relative ">
+    <div className=" w-full h-full flex flex-col relative  ">
       <div className="relative ">
         <div className="w-full  drop-shadow-2xl  relative -z-50">
           <div
@@ -60,31 +60,26 @@ function GoldenMovies() {
           ></div>
         </div>
       </div>
-      <div>
-        <div className="w-full h-[200px] bg-[#1b2228] flex flex-row justify-between items-center p-20">
-          <div className="flex flex-row text-[40px]  text-white font-semibold ">
-            <p>
-              10 impressive movies of different genres and genres that you must
-              watch
-            </p>
-          </div>
-        </div>
-        <p className=" bg-[#1b2228] pl-20 text-xl text-[#63707d]  hover:text-[#42668a] w-full border-b-2 border-[#445566] hover:border-[#42668a]"></p>
+      <div className=" flex  justify-center items-center text-center w-full h-full bg-[#1b2228] ">
+        <p className="flex w-4/5 h-full py-12 flex-row  text-3xl sm:text-4xl  text-white font-semibold border-b-2 border-[#445566] hover:border-[#42668a] ">
+          10 impressive movies of different genres and genres that you must
+          watch
+        </p>
       </div>
-      <div className="grid grid-cols-5 ">
-        {newData.map((element, key) => {
-          return (
-            <div
-              key={key}
-              className="w-full flex justify-center h-[19rem] bg-[#1b2228] group  "
-            >
-              <div className="w-[11rem] flex   mt-6 object-cover  h-[16rem]  bg-[#ebecf0] rounded-3xl   items-end justify-center  ">
+      <div className="w-full h-full flex justify-center items-center bg-[#1b2228] ">
+        <div className="w-4/5 h-full  py-4  grid grid-cols-2 sm:grid-cols-5  justify-center items-center ">
+          {newData.map((element, key) => {
+            return (
+              <div
+                key={key}
+                className="  h-[16rem] xl:h-[18rem] rounded-3xl  sm:mx-7 my-2 flex  items-end justify-center group  "
+              >
                 <Link
-                  className="absolute w-[11rem]  h-[16rem]"
+                  className="absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem]"
                   to={`/movie/${element.Id}`}
                 >
                   <img
-                    className=" absolute border-2 border-[#1b2228] hover:border-[#00b020] w-[11rem]  h-[16rem] rounded-3xl object-cover"
+                    className=" absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
                     src={require(`../../images/${element.img}`)}
                   />
                 </Link>
@@ -113,9 +108,9 @@ function GoldenMovies() {
                   </div>
                 )}
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );

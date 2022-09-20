@@ -18,31 +18,34 @@ function NavnarMain() {
   };
 
   return (
-    <div className="w-full h-[92px] flex flex-row absolute z-10  justify-between    ">
+    <div className="w-full h-[92px] flex flex-col  sm:flex-row absolute z-10 justify-center  sm:justify-between  items-center  ">
       <Link to="/">
         <img
-          className=" ml-5 w-[350px] h-[82px]  object-cover "
+          className=" sm:ml-5 lg:w-[350px] h-[82px]  object-cover "
           src={require("../../../src/images/logo2.png")}
         />
       </Link>
-      <div className="text-[#d8e0e8] font-bold  flex flex-row justify-center text-justfiy items-center pr-12 h-full">
+      <div className="text-[#d8e0e8] font-bold gap-4 sm:gap-0  flex flex-row justify-center  items-center sm:pr-12 h-full">
         {isLoginValue && (
-          <Link to="/profile" className="hover:text-[#fefefe] ml-6">
+          <Link to="/profile" className="hover:text-[#fefefe] sm:ml-6">
             PROFİLE
           </Link>
         )}
 
-        <button onClick={isLoginFunction} className="hover:text-[#fefefe] ml-6">
+        <button
+          onClick={isLoginFunction}
+          className="hover:text-[#fefefe]  sm:ml-6"
+        >
           {isLoginValue ? "LOGOUT" : "LOGİN"}
         </button>
 
-        <Link className="hover:text-[#fefefe] ml-6" to="/films">
+        <Link className="hover:text-[#fefefe] sm:ml-6" to="/films">
           FILMS
         </Link>
-        <Link className="hover:text-[#fefefe] ml-6" to="/lists">
+        <Link className="hover:text-[#fefefe] sm:ml-6" to="/lists">
           LIST
         </Link>
-        <Link className="hover:text-[#fefefe] ml-6" to="/journal">
+        <Link className="hover:text-[#fefefe] sm:ml-6" to="/journal">
           JOURNAL
         </Link>
         {modal && <CreateModal modal={modal} />}

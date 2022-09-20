@@ -5,7 +5,7 @@ function Journal() {
   console.log(data);
   return (
     <div className=" w-full h-full flex flex-col ">
-      <div className="w-full h-[92px] bg-[#14181c]"></div>
+      <div className="w-full  h-[102px] sm:h-[92px] bg-[#14181c]"></div>
       <div className="w-full h-[82px] bg-[#445566] flex items-end">
         <p className="  pl-16 text-2xl text-[#94a5b6] hover:text-[#ffff] w-full border-b-2 border-[#5b6c7d] hover:border-[#42668a] font-bold">
           J O U R N A L

@@ -25,7 +25,7 @@ function HomePage() {
           }}
         ></div>
       </div>
-      <div className=" w-[42rem] h-[18rem] relative z-10 leading-normal flex justify-center  text-white text-center font-bold text-5xl  ">
+      <div className=" w-3/4  relative  leading-normal flex justify-center  text-white text-center font-bold text-5xl  ">
         Track films you’ve watched. Save those you want to see. Tell your
         friends what’s good.
       </div>

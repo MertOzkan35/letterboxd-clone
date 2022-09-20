@@ -67,52 +67,49 @@ function FilmsMain() {
   };
   return (
     <div className=" w-full h-full flex flex-col  ">
-      <div className="w-full h-[92px] bg-[#14181c]"></div>
+      <div className="w-full  h-[102px] sm:h-[92px] bg-[#14181c]"></div>
       <BrowseBy ChangeYear={YearSelectValue} FilmName={FilmName} />
-      <div className="w-full h-full pt-8  bg-[#1b2228] px-12  grid grid-cols-6 gap-10 ">
+      <div className="w-full h-full pt-8  bg-[#1b2228] px-8 pb-8  grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6  ">
         {filterData &&
           filterData.map((element, key) => {
             return (
-              <div className="w-full h-[17rem] bg-[#1b2228] ">
-                <div
-                  key={key}
-                  className="  flex  justify-center items-end   w-[11rem]  object-cover  h-[16rem]  bg-[#ebecf0] rounded-3xl  group  "
+              <div
+                key={key}
+                className="  flex  justify-center items-end mb-6 gap-2  h-[16rem] xl:h-[18rem] object-cover    rounded-3xl  group  "
+              >
+                <Link
+                  className="absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem]"
+                  to={`/movie/${element.Id}`}
                 >
-                  <Link
-                    className="absolute w-[11rem]  h-[16rem]"
-                    to={`/movie/${element.Id}`}
-                  >
-                    <img
-                      className=" absolute border-2 border-[#1b2228] hover:border-[#00b020] w-[11rem]  h-[16rem] rounded-3xl object-cover "
-                      src={require(`../../images/${element.img}`)}
-                    />
-                  </Link>
-                  {isLoginValue && (
-                    <div className="w-3/5 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 invisible  group-hover:visible  ease-in-out duration-100 ">
-                      <button onClick={() => addToFavoriteMovies(element)}>
-                        <img
-                          className={` h-6 object-cover   rounded-2xl ${
-                            favorite &&
-                            favorite.find((x) => x.Id === element.Id)
-                              ? "bg-[#B12403]"
-                              : "hover:bg-[#B12403]"
-                          }  `}
-                          src={require("../../images/heart.png")}
-                        />
-                      </button>
-                      <button onClick={() => addToForWatchMovies(element)}>
-                        <img
-                          className={` h-6 object-cover   rounded-2xl ${
-                            watch && watch.find((x) => x.Id === element.Id)
-                              ? "bg-[#00b020]"
-                              : "hover:bg-[#00b020]"
-                          }  `}
-                          src={require("../../images/eye.png")}
-                        />
-                      </button>
-                    </div>
-                  )}
-                </div>
+                  <img
+                    className="absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover "
+                    src={require(`../../images/${element.img}`)}
+                  />
+                </Link>
+                {isLoginValue && (
+                  <div className="w-1/2 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 invisible  group-hover:visible  ease-in-out duration-100 ">
+                    <button onClick={() => addToFavoriteMovies(element)}>
+                      <img
+                        className={` h-6 object-cover   rounded-2xl ${
+                          favorite && favorite.find((x) => x.Id === element.Id)
+                            ? "bg-[#B12403]"
+                            : "hover:bg-[#B12403]"
+                        }  `}
+                        src={require("../../images/heart.png")}
+                      />
+                    </button>
+                    <button onClick={() => addToForWatchMovies(element)}>
+                      <img
+                        className={` h-6 object-cover   rounded-2xl ${
+                          watch && watch.find((x) => x.Id === element.Id)
+                            ? "bg-[#00b020]"
+                            : "hover:bg-[#00b020]"
+                        }  `}
+                        src={require("../../images/eye.png")}
+                      />
+                    </button>
+                  </div>
+                )}
               </div>
             );
           })}

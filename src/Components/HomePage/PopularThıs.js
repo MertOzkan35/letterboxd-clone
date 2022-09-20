@@ -24,23 +24,23 @@ function PopularThıs() {
       : dispatch(addWatchMovie(element));
   };
   return (
-    <div className="w-full h-[50rem] bg-[#14181c] flex flex-col">
-      <div className="flex flex-col w-4/5 text-[#63707d] ml-32 mt-11 border-b-2 hover:text-[#42668a] hover:border-[#42668a] border-[#445566]">
+    <div className="w-full h-full bg-[#14181c] flex justify-center items-center flex-col">
+      <div className="flex flex-col w-4/5 text-[#63707d]  mt-11 border-b-2 hover:text-[#42668a] hover:border-[#42668a] border-[#445566]">
         <p>POPULAR REVIEWS THIS WEEK</p>
       </div>
-      <div className="w-full h-[17rem] mt-16 bg-[#14181c] flex flex-row justify-center items-center ">
+      <div className="w-4/5 h-full mt-8 bg-[#14181c] grid grid-cols-2 sm:grid-cols-5  justify-center items-center ">
         {data.slice(0, 5).map((element, key) => {
           return (
             <div
               key={key}
-              className="w-[11rem]  h-[16rem]  rounded-3xl mx-7 my-2 flex  items-end justify-center group  "
+              className="  h-[16rem] xl:h-[18rem] rounded-3xl  sm:mx-7 my-2 flex  items-end justify-center group  "
             >
               <Link
-                className="absolute w-[11rem]  h-[16rem]"
+                className="absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem]"
                 to={`/movie/${element.Id}`}
               >
                 <img
-                  className=" absolute w-[11rem]  h-[16rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
+                  className=" absolute w-[9rem] h-[13rem] sm:w-[11rem]  sm:h-[16rem] xl:w-[13rem] xl:h-[18rem] border-2 border-[#1b2228] hover:border-[#00b020] rounded-3xl object-cover"
                   src={require(`../../images/${element.img}`)}
                 />
               </Link>
@@ -72,7 +72,7 @@ function PopularThıs() {
           );
         })}
       </div>
-      <div className="flex flex-col justify-between  items-center w-4/5 h-[10rem]  text-[#63707d] ml-32 mt-12  hover:text-[#42668a]  ">
+      <div className="flex flex-col justify-between  items-center w-4/5 h-full py-16  text-[#63707d]  mt-12 gap-16  hover:text-[#42668a]  ">
         <p className=" w-full border-b-2 border-[#445566] hover:border-[#42668a]">
           LIST FOR YOU
         </p>

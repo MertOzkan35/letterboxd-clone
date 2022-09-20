@@ -3,10 +3,10 @@ import React from "react";
 function BrowseBy(props) {
   return (
     <div>
-      <div className="w-full h-[200px] bg-[#1b2228] flex flex-row justify-between items-center p-20">
-        <div className="flex flex-row text-lg  text-[#899aa9] ">
+      <div className="w-full h-full bg-[#1b2228] flex flex-col sm:flex-row justify-center sm:justify-between items-center p-20">
+        <div className="  flex flex-col sm:flex-row text-lg  text-[#899aa9] ">
           <p>BROWSE BY</p>
-          <div className="border-2 border-[#232a31] flex text-center  ml-4">
+          <div className="border-2 sm:mt-0 mt-4 border-[#232a31] flex text-center  sm:ml-4">
             <select
               onChange={(event) =>
                 props.ChangeYear({ year: event.target.value })
@@ -23,7 +23,7 @@ function BrowseBy(props) {
               onChange={(event) =>
                 props.ChangeYear({ genre: event.target.value })
               }
-              className="bg-[#1b2127] w-[140px] border-r-2 border-[#232a31] focus:bg-[#D3D3D3]  focus:text-black focus:text-opacity-60 "
+              className="bg-[#1b2127] w-[140px]   focus:bg-[#D3D3D3]  focus:text-black focus:text-opacity-60 "
             >
               <option>Genre</option>
               <option>Action</option>
@@ -35,13 +35,13 @@ function BrowseBy(props) {
             </select>
           </div>
         </div>
-        <div className=" flex  items-center ">
-          <p className="flex flex-row text-lg font-semibold  text-[#899aa9] ">
+        <div className=" flex  items-center sm:mt-0 mt-4 ">
+          <p className="flex flex-row pl-2 sm:text-lg font-semibold  text-[#899aa9] ">
             FIND A FILM
           </p>
           <input
             onChange={(event) => props.FilmName(event.target.value)}
-            className="w-[250px] ml-5 h-[40px] bg-[#2c3440] rounded-lg focus:bg-slate-100 pl-2"
+            className="w-[250px] sm:ml-5 h-[40px] bg-[#2c3440] rounded-lg focus:bg-slate-100 pl-2"
           ></input>
         </div>
       </div>
