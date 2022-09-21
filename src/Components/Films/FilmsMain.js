@@ -87,7 +87,7 @@ function FilmsMain() {
                   />
                 </Link>
                 {isLoginValue && (
-                  <div className="w-1/2 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 invisible  group-hover:visible  ease-in-out duration-100 ">
+                  <div className="w-1/2 h-10 mb-2 z-10 flex justify-center rounded-lg bg-black opacity-70  gap-4 sm:invisible  sm:group-hover:visible  ease-in-out duration-100 ">
                     <button onClick={() => addToFavoriteMovies(element)}>
                       <img
                         className={` h-6 object-cover   rounded-2xl ${
