@@ -28,40 +28,40 @@ function FilmInfo() {
   };
 
   return (
-    <div className="w-full h-full flex flex-col bg-[#1f252c]  ">
-      <div className=" w-full h-[92px] bg-[#14181c]"></div>
-      <div className=" flex justify-between px-20 items-center  w-full h-[40rem]">
+    <div className="w-full h-full flex flex-col justify-center items-center text-center bg-[#1f252c]  ">
+      <div className=" w-full h-[102px] sm:h-[92px] bg-[#14181c]"></div>
+      <div className=" flex w-4/5 items-center sm:items-center flex-col sm:flex-row   h-full">
         <div
-          className=" w-4/5 h-[30rem]  flex
+          className=" w-4/5 h-full  flex  flex-col sm:flex-row
         "
         >
-          <div className="w-1/3 flex justify-center items-start pt-6">
+          <div className="sm:w-1/3 w-full flex justify-center items-start pt-6">
             <img
               className="  w-[16rem]  h-[24rem] border-[#33394b] rounded-lg border-2  object-cover"
               src={require(`../../images/${selectedMovie.img}`)}
             />
           </div>
-          <div className="w-2/3  flex flex-col justify-start items-center ">
-            <div className="flex flex-col items-start  w-full  mt-6 ml-6 ">
+          <div className="w-full sm:w-2/3  flex flex-col justify-start items-center ">
+            <div className="flex flex-col justify-center text-center items-center  w-full  mt-6 sm:ml-6 ">
               <p className="text-white w-6/7 font-bold text-2xl font-serif">
                 {selectedMovie.Name.toUpperCase()}
               </p>
-              <div className="flex gap-2">
-                <p className="  pt-2 text-xl text-[#77818f]   font-normal">
+              <div className="flex w-full gap-2 justify-center text-center items-center">
+                <p className="  pt-2 sm:text-xl text-[#77818f]   font-normal">
                   {selectedMovie.Date}
                 </p>
-                <p className="  pt-2 text-xl text-[#77818f] font-normal">
+                <p className="  pt-2 sm:text-xl text-[#77818f] font-normal">
                   Directed by {selectedMovie.Director}
                 </p>
               </div>
-              <p className="w-4/5 mt-6 text-lg text-[#8ba6a0]">
+              <p className="w-4/5  file: mt-6 text-lg text-[#8ba6a0]">
                 {selectedMovie.Subject}
               </p>
             </div>
           </div>
         </div>
         {isLoginValue && (
-          <div className=" flex justify-center w-1/5 h-[30rem] pt-20">
+          <div className=" flex justify-center  w-1/2 sm:w-1/5 h-[30rem] pt-20">
             <div className=" flex justify-center gap-6 p-6 w-4/5 h-[6rem] rounded-lg bg-[#445566]">
               <button onClick={() => addToFavoriteMovies(selectedMovie)}>
                 <img
