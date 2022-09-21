@@ -15,7 +15,7 @@ function Journal() {
         <div className=" w-full  sm:w-1/2 px-3  h-[22rem] flex  justify-center items-center] ">
           <a href="https://letterboxd.com/journal/dont-stop-me-noh-masaaki-yuasa-inu-oh/">
             <img
-              className=" border-2 border-[#1b2228]  hover:border-[#ffff] object-cover"
+              className=" border-2 border-[#1b2228] sm:ml-10 hover:border-[#ffff] object-cover"
               src={require("../../images/journal1.jpg")}
             />
           </a>
@@ -41,7 +41,7 @@ function Journal() {
           </p>
         </div>
       </div>
-      <div className="w-full h-full pb-10   grid grid-flow-row sm:grid-cols-2   lg:grid-cols-3   bg-[#ffff]">
+      <div className="w-full h-full py-10   grid grid-flow-row sm:grid-cols-2   lg:grid-cols-3   bg-[#ffff]">
         <a
           href="https://letterboxd.com/journal/messy-play-halina-reijn-bodies-bodies-bodies/"
           className=" flex items-center justify-center flex-col w-full  h-full"
@@ -62,7 +62,7 @@ function Journal() {
             <p className="text-[#aba7af] w-full text-2xl  justify-center items-center text-center ">
               Messy Play. Bodies Bodies Bodies director Halina Reijn on
               choreographing her cast, the animal dynamics of group behavior and
-              the joys of women’s wrongs.
+              the joys of women’s wrongs .
             </p>
           </div>
           <p className="text-[#88a0ba] hover:underline mt-4 text-lg mb-3 font-bold ">
@@ -73,7 +73,7 @@ function Journal() {
           href="https://letterboxd.com/journal/showing-the-business-how-hollywood-sees-porn/"
           className=" flex items-center justify-center flex-col w-full  h-full"
         >
-          <div className="w-3/4   flex  items-center justify-center flex-col pt-8">
+          <div className="w-3/4   flex  items-center justify-center flex-col ">
             <img
               className=" border-2 border-[#1b2228]   hover:border-[#ffff] object-cover"
               src={require("../../images/journal3.png")}
@@ -100,7 +100,7 @@ function Journal() {
           href="https://letterboxd.com/journal/love-letters-wes-studi-dale-dickey-a-love-song/"
           className=" flex items-center justify-center flex-col w-full  h-full"
         >
-          <div className="w-3/4   flex  items-center justify-center flex-col pt-8 ">
+          <div className="w-3/4   flex  items-center justify-center flex-col ">
             <img
               className=" border-2 border-[#1b2228]   hover:border-[#ffff] object-cover"
               src={require("../../images/journal4.jpg")}
