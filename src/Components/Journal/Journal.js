@@ -51,8 +51,8 @@ function Journal() {
               className=" border-2 border-[#1b2228]   hover:border-[#ffff] object-cover"
               src={require("../../images/journal2.jpg")}
             />
-            <div className="flex flex-row gap-8 mt-5">
-              <p className="text-[#88a0ba] hover:underline text-lg mb-3 font-bold ">
+            <div className="flex flex-row gap-8 ">
+              <p className="text-[#88a0ba] hover:underline text-lg  font-bold ">
                 Interview
               </p>
               <p className="text-[#88a0ba] hover:underline text-lg  ">
@@ -65,7 +65,7 @@ function Journal() {
               the joys of women’s wrongs .
             </p>
           </div>
-          <p className="text-[#88a0ba] hover:underline mt-4 text-lg mb-3 font-bold ">
+          <p className="text-[#88a0ba] hover:underline mt-4 text-lg  font-bold ">
             ANNIE LYONS
           </p>
         </a>
