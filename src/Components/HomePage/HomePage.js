@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../images/Listsmain.jpg";
 import PopularThıs from "./PopularThıs";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -30,9 +31,11 @@ function HomePage() {
         friends what’s good.
       </div>
       <div className=" w-full h-[9rem] flex flex-col  justify-center  items-center ">
-        <button className="w-[21rem] h-[3rem] hover:border-2 bg-[#00b020] text-xl p-2 justfy- rounded-xl text-white ">
-          GET STARTED - IT'S FREE
-        </button>
+        <Link to="/films">
+          <button className="w-[21rem] h-[3rem] hover:border-2 bg-[#00b020] text-xl p-2 justfy- rounded-xl text-white ">
+            ALL FILMS FOR YOU
+          </button>
+        </Link>
         <p className="text-xl  mt-6  flex justify-center items-center text-[#6a7c84]">
           The social network for film lovers.
         </p>

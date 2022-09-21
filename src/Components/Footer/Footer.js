@@ -3,71 +3,71 @@ import React from "react";
 function Footer() {
   return (
     <div className="w-full h-[40rem] bg-[#2c3440] flex flex-col">
-      <div className="w-full  flex justify-between ">
-        <div className=" h-full  ml-12 mt-4  flex flex-col lg:flex-row  items-center ">
+      <div className="w-full  flex flex-col sm:flex-row justify-between px-2 ">
+        <div className=" h-full gap-1 sm:gap-3 sm:ml-12 mt-4 text-[11px] sm:text-xl  flex flex-row  items-center ">
           <a
             href="https://letterboxd.com/about/faq/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className="t font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             About
           </a>
           <a
             href="https://letterboxd.com/journal/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             News
           </a>
           <a
             href="https://letterboxd.com/pro/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Pro
           </a>
           <a
             href="https://letterboxd.com/apps/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Apps
           </a>
           <a
             href="https://anchor.fm/letterboxd"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Podcast
           </a>
           <a
             href="https://letterboxd.com/2021/#title-page"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Year in Review
           </a>
           <a
             href="https://letterboxd.com/gift-guide/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Gift Guide
           </a>
           <a
             href="https://letterboxd.com/welcome/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Help
           </a>
 
           <a
             href="https://letterboxd.com/api-beta/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             API
           </a>
           <a
             href="https://letterboxd.com/contact/"
-            className="text-xl font-bold text-[#96a6b7] px-4 hover:text-[#fff]"
+            className=" font-bold text-[#96a6b7]  hover:text-[#fff]"
           >
             Contact
           </a>
         </div>
-        <div className="  h-[6rem] mr-12 mt-8 flex items-center gap-5  ">
+        <div className="  h-[6rem] mr-12 sm:mt-8 flex items-center gap-5  ">
           <a href="https://twitter.com/letterboxd">
             <svg className=" w-[20px] h-[16px] fill-[#556677] hover:fill-[#fff]">
               <path d="M17.96 4.51V4c.8-.56 1.49-1.28 2.04-2.1-.74.33-1.53.54-2.36.65.85-.5 1.5-1.3 1.8-2.24-.78.46-1.66.8-2.6.98a4.13 4.13 0 0 0-7.1 2.76c0 .31.04.62.1.92A11.72 11.72 0 0 1 1.38.74a3.99 3.99 0 0 0 1.28 5.4A4.2 4.2 0 0 1 .8 5.62v.06c0 1.95 1.42 3.59 3.29 3.96a4.06 4.06 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.32 8.32 0 0 1 0 14.2C1.8 15.33 3.97 16 6.28 16A11.5 11.5 0 0 0 17.96 4.51Z"></path>

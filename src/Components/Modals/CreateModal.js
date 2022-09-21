@@ -9,6 +9,7 @@ function CreateModal(props) {
   const [showModal, setShowModal] = useState(props.modal);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  const [alert, setalert] = useState("invisible");
 
   function isLoginFunction() {
     if (userName.length > 0 && password.length > 4) {
@@ -21,7 +22,7 @@ function CreateModal(props) {
         setShowModal(false)
       );
     } else {
-      alert("ŞİFRENİZ EN AZ 5 HANELİ OLMALIDIR!");
+      setalert("visible");
     }
   }
 
@@ -64,7 +65,7 @@ function CreateModal(props) {
                         onChange={(e) => setUserName(e.target.value)}
                       ></input>
                     </div>
-                    <div className="flex flex-col mx-6 mb-4">
+                    <div className="flex flex-col mx-6 ">
                       <p className="text-[#dadee0] font-semibold pb-1">
                         Password
                       </p>
@@ -73,6 +74,10 @@ function CreateModal(props) {
                         className="w-[250px] text-black  h-[40px] bg-[#ccddee] rounded-lg focus:bg-slate-100 pl-2"
                         onChange={(e) => setPassword(e.target.value)}
                       ></input>
+
+                      <p className={` pt-4 text-[#e00c0c] ${alert} `}>
+                        Şifreniz en az 5 haneli olmalıdır !
+                      </p>
                     </div>
                   </div>
                   {/*footer*/}

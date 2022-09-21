@@ -41,7 +41,7 @@ function BrowseBy(props) {
           </p>
           <input
             onChange={(event) => props.FilmName(event.target.value)}
-            className="w-[250px] sm:ml-5 h-[40px] bg-[#2c3440] rounded-lg focus:bg-slate-100 pl-2"
+            className="w-[250px] sm:ml-5 h-[40px] ml-2 bg-[#2c3440] rounded-lg focus:bg-slate-100 pl-2"
           ></input>
         </div>
       </div>
