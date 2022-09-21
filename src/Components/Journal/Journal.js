@@ -59,7 +59,7 @@ function Journal() {
                 19 AUG 2022
               </p>
             </div>
-            <p className="text-[#aba7af] w-full text-2xl  justify-center items-center text-center ">
+            <p className="text-[#aba7af] w-full text-xl  justify-center items-center text-center ">
               Messy Play. Bodies Bodies Bodies director Halina Reijn on
               choreographing her cast, the animal dynamics of group behavior and
               the joys of women’s wrongs .
@@ -86,7 +86,7 @@ function Journal() {
                 17 AUG 2022
               </p>
             </div>
-            <p className="text-[#aba7af] w-full text-2xl  justify-center items-center text-center ">
+            <p className="text-[#aba7af] w-full text-xl  justify-center items-center text-center ">
               Showing the Business. On the ﬁrst anniversary of adult ﬁlms on
               Letterboxd, Charles Bramesco looks at the variable results when
               Hollywood turns its lens on the other LA ﬁlm industry.
@@ -113,7 +113,7 @@ function Journal() {
                 16 AUG 2022
               </p>
             </div>
-            <p className="text-[#aba7af] w-full text-2xl  justify-center items-center text-center ">
+            <p className="text-[#aba7af] w-full text-xl   justify-center items-center text-center ">
               A Love Song stars Dale Dickey and Wes Studi speak with Indigenous
               Editor Leo Koziol about letters, songs and the bonds built into
               Max Walker-Silverman’s autumn romance.
