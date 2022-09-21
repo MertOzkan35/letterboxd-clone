@@ -44,7 +44,7 @@ function Journal() {
       <div className="w-full h-full py-10 justify-center items-center   grid grid-flow-row sm:grid-cols-2   lg:grid-cols-3   bg-[#ffff]">
         <a
           href="https://letterboxd.com/journal/messy-play-halina-reijn-bodies-bodies-bodies/"
-          className=" flex items-center justify-center flex-col w-full  h-full"
+          className=" flex items-center justify-start  flex-col w-full  h-full"
         >
           <div className="w-3/4   flex  items-center justify-center flex-col ">
             <img
