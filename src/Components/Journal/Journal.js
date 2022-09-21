@@ -71,7 +71,7 @@ function Journal() {
         </a>
         <a
           href="https://letterboxd.com/journal/showing-the-business-how-hollywood-sees-porn/"
-          className=" flex items-center justify-center flex-col w-full  h-full"
+          className=" flex items-center justify-start  flex-col w-full  h-full"
         >
           <div className="w-3/4   flex  items-center justify-center flex-col ">
             <img
@@ -98,7 +98,7 @@ function Journal() {
         </a>
         <a
           href="https://letterboxd.com/journal/love-letters-wes-studi-dale-dickey-a-love-song/"
-          className=" flex items-center justify-center flex-col w-full  h-full"
+          className=" flex items-center justify-start  flex-col w-full  h-full"
         >
           <div className="w-3/4   flex  items-center justify-center flex-col ">
             <img
