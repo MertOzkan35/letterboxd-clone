@@ -74,7 +74,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className=" mt-6 flex sm:justify-start sm:text-start justify-center text-center   sm:pl-[55px]  text-[#4d5b69]">
+      <div className=" mt-6 flex sm:justify-start sm:text-start justify-center text-center   sm:pl-[155px]  text-[#4d5b69]">
         <p>
           © Letterboxd Limited. Made by fans in Aotearoa. Film data from TMDb.
           Mobile site.
