@@ -32,10 +32,10 @@ function FilmInfo() {
       <div className=" w-full h-[102px] sm:h-[92px] bg-[#14181c]"></div>
       <div className=" flex w-4/5 items-center sm:items-center flex-col sm:flex-row   h-full">
         <div
-          className=" w-4/5 h-full  flex  flex-col sm:flex-row
+          className=" w-4/5  py-12 h-full  flex  flex-col sm:flex-row
         "
         >
-          <div className="sm:w-1/3 w-full flex justify-center items-start pt-6">
+          <div className="sm:w-1/3 w-full flex justify-center items-start">
             <img
               className="  w-[16rem]  h-[24rem] border-[#33394b] rounded-lg border-2  object-cover"
               src={require(`../../images/${selectedMovie.img}`)}
